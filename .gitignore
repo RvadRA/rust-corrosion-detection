@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Данные и веса моделей — не храним в git
+dataset/raw/
+dataset/processed/
+dataset/annotations/
+weights/
+*.pt
+*.pth
+*.onnx
+*.engine
+
+# Секреты и локальные настройки
+.env
+.env.local
+
+# Node / frontend
+node_modules/
+dist/
+build/
+
+# IDE и ОС
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Project documents and course files
+/docs/
+/filesfromcourse/
+
+# Логи и временные файлы
+*.log
+tmp/
