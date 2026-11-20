@@ -30,10 +30,11 @@ build/
 .DS_Store
 Thumbs.db
 
-# Project documents and course files
-/docs/
+# Course source files and preview exports
 /filesfromcourse/
+docs/**/*.pdf
 
 # Логи и временные файлы
 *.log
 tmp/
+results.csv

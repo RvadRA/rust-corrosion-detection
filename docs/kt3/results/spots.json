@@ -1,0 +1,51 @@
+{
+  "min_area_px": 24,
+  "iou_threshold": 0.5,
+  "size": 256,
+  "methods": {
+    "M1 HSV-порог": {
+      "gt": 333,
+      "pred": 886,
+      "tp": 60,
+      "fp": 826,
+      "fn": 273,
+      "recall": 0.1802,
+      "precision": 0.0677,
+      "f1": 0.0984,
+      "area_mae": 0.1701
+    },
+    "M2 Lab-порог": {
+      "gt": 333,
+      "pred": 924,
+      "tp": 66,
+      "fp": 858,
+      "fn": 267,
+      "recall": 0.1982,
+      "precision": 0.0714,
+      "f1": 0.105,
+      "area_mae": 0.2246
+    },
+    "M3 RandomForest": {
+      "gt": 333,
+      "pred": 818,
+      "tp": 66,
+      "fp": 752,
+      "fn": 267,
+      "recall": 0.1982,
+      "precision": 0.0807,
+      "f1": 0.1147,
+      "area_mae": 0.1708
+    },
+    "M4 U-Net": {
+      "gt": 333,
+      "pred": 418,
+      "tp": 52,
+      "fp": 366,
+      "fn": 281,
+      "recall": 0.1562,
+      "precision": 0.1244,
+      "f1": 0.1385,
+      "area_mae": 0.2203
+    }
+  }
+}

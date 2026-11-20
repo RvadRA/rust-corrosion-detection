@@ -1,0 +1,5930 @@
+{
+  "seed": 42,
+  "size": 512,
+  "count": 655,
+  "splits": {
+    "train": {
+      "count": 541,
+      "sources": {
+        "ostrava": 75,
+        "pipelines": 70,
+        "vt": 396
+      },
+      "positive_fraction": 0.232829
+    },
+    "val": {
+      "count": 35,
+      "sources": {
+        "ostrava": 15,
+        "pipelines": 20
+      },
+      "positive_fraction": 0.156815
+    },
+    "test": {
+      "count": 79,
+      "sources": {
+        "ostrava": 15,
+        "pipelines": 20,
+        "vt": 44
+      },
+      "positive_fraction": 0.181238
+    }
+  },
+  "records": [
+    {
+      "id": "0000",
+      "name": "01",
+      "source": "ostrava",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0000.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0000.png",
+      "positive_fraction": 0.040882
+    },
+    {
+      "id": "0001",
+      "name": "02",
+      "source": "ostrava",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0001.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0001.png",
+      "positive_fraction": 0.334671
+    },
+    {
+      "id": "0002",
+      "name": "03",
+      "source": "ostrava",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0002.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0002.png",
+      "positive_fraction": 0.176456
+    },
+    {
+      "id": "0003",
+      "name": "04",
+      "source": "ostrava",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0003.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0003.png",
+      "positive_fraction": 1.0
+    },
+    {
+      "id": "0004",
+      "name": "05",
+      "source": "ostrava",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0004.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0004.png",
+      "positive_fraction": 0.186554
+    },
+    {
+      "id": "0005",
+      "name": "06",
+      "source": "ostrava",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0005.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0005.png",
+      "positive_fraction": 0.22599
+    },
+    {
+      "id": "0006",
+      "name": "07",
+      "source": "ostrava",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0006.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0006.png",
+      "positive_fraction": 0.992146
+    },
+    {
+      "id": "0007",
+      "name": "08",
+      "source": "ostrava",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0007.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0007.png",
+      "positive_fraction": 0.446468
+    },
+    {
+      "id": "0008",
+      "name": "09",
+      "source": "ostrava",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0008.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0008.png",
+      "positive_fraction": 0.386166
+    },
+    {
+      "id": "0009",
+      "name": "10",
+      "source": "ostrava",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0009.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0009.png",
+      "positive_fraction": 0.626244
+    },
+    {
+      "id": "0010",
+      "name": "11",
+      "source": "ostrava",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0010.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0010.png",
+      "positive_fraction": 0.261753
+    },
+    {
+      "id": "0011",
+      "name": "12",
+      "source": "ostrava",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0011.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0011.png",
+      "positive_fraction": 0.234604
+    },
+    {
+      "id": "0012",
+      "name": "13",
+      "source": "ostrava",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0012.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0012.png",
+      "positive_fraction": 0.360214
+    },
+    {
+      "id": "0013",
+      "name": "14",
+      "source": "ostrava",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0013.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0013.png",
+      "positive_fraction": 0.218113
+    },
+    {
+      "id": "0014",
+      "name": "15",
+      "source": "ostrava",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0014.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0014.png",
+      "positive_fraction": 0.243313
+    },
+    {
+      "id": "0015",
+      "name": "16",
+      "source": "ostrava",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0015.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0015.png",
+      "positive_fraction": 0.401478
+    },
+    {
+      "id": "0016",
+      "name": "17",
+      "source": "ostrava",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0016.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0016.png",
+      "positive_fraction": 0.249371
+    },
+    {
+      "id": "0017",
+      "name": "18",
+      "source": "ostrava",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0017.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0017.png",
+      "positive_fraction": 0.024929
+    },
+    {
+      "id": "0018",
+      "name": "19",
+      "source": "ostrava",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0018.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0018.png",
+      "positive_fraction": 0.229439
+    },
+    {
+      "id": "0019",
+      "name": "20",
+      "source": "ostrava",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0019.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0019.png",
+      "positive_fraction": 0.293945
+    },
+    {
+      "id": "0020",
+      "name": "21",
+      "source": "ostrava",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0020.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0020.png",
+      "positive_fraction": 0.125565
+    },
+    {
+      "id": "0021",
+      "name": "22",
+      "source": "ostrava",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0021.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0021.png",
+      "positive_fraction": 0.3424
+    },
+    {
+      "id": "0022",
+      "name": "23",
+      "source": "ostrava",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0022.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0022.png",
+      "positive_fraction": 0.305981
+    },
+    {
+      "id": "0023",
+      "name": "24",
+      "source": "ostrava",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0023.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0023.png",
+      "positive_fraction": 0.31414
+    },
+    {
+      "id": "0024",
+      "name": "25",
+      "source": "ostrava",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0024.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0024.png",
+      "positive_fraction": 0.731995
+    },
+    {
+      "id": "0025",
+      "name": "26",
+      "source": "ostrava",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0025.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0025.png",
+      "positive_fraction": 0.927692
+    },
+    {
+      "id": "0026",
+      "name": "27",
+      "source": "ostrava",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0026.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0026.png",
+      "positive_fraction": 0.152237
+    },
+    {
+      "id": "0027",
+      "name": "28",
+      "source": "ostrava",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0027.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0027.png",
+      "positive_fraction": 0.227493
+    },
+    {
+      "id": "0028",
+      "name": "29",
+      "source": "ostrava",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0028.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0028.png",
+      "positive_fraction": 0.225052
+    },
+    {
+      "id": "0029",
+      "name": "30",
+      "source": "ostrava",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0029.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0029.png",
+      "positive_fraction": 0.893902
+    },
+    {
+      "id": "0030",
+      "name": "31",
+      "source": "ostrava",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0030.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0030.png",
+      "positive_fraction": 0.171219
+    },
+    {
+      "id": "0031",
+      "name": "32",
+      "source": "ostrava",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0031.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0031.png",
+      "positive_fraction": 0.131359
+    },
+    {
+      "id": "0032",
+      "name": "33",
+      "source": "ostrava",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0032.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0032.png",
+      "positive_fraction": 0.010464
+    },
+    {
+      "id": "0033",
+      "name": "34",
+      "source": "ostrava",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0033.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0033.png",
+      "positive_fraction": 0.214649
+    },
+    {
+      "id": "0034",
+      "name": "35",
+      "source": "ostrava",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0034.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0034.png",
+      "positive_fraction": 0.100441
+    },
+    {
+      "id": "0035",
+      "name": "36",
+      "source": "ostrava",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0035.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0035.png",
+      "positive_fraction": 0.238617
+    },
+    {
+      "id": "0036",
+      "name": "37",
+      "source": "ostrava",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0036.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0036.png",
+      "positive_fraction": 0.358845
+    },
+    {
+      "id": "0037",
+      "name": "38",
+      "source": "ostrava",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0037.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0037.png",
+      "positive_fraction": 0.529205
+    },
+    {
+      "id": "0038",
+      "name": "39",
+      "source": "ostrava",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0038.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0038.png",
+      "positive_fraction": 0.052944
+    },
+    {
+      "id": "0039",
+      "name": "40",
+      "source": "ostrava",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0039.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0039.png",
+      "positive_fraction": 0.00658
+    },
+    {
+      "id": "0040",
+      "name": "41",
+      "source": "ostrava",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0040.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0040.png",
+      "positive_fraction": 0.043625
+    },
+    {
+      "id": "0041",
+      "name": "42",
+      "source": "ostrava",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0041.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0041.png",
+      "positive_fraction": 0.071411
+    },
+    {
+      "id": "0042",
+      "name": "43",
+      "source": "ostrava",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0042.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0042.png",
+      "positive_fraction": 0.590988
+    },
+    {
+      "id": "0043",
+      "name": "44",
+      "source": "ostrava",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0043.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0043.png",
+      "positive_fraction": 0.825085
+    },
+    {
+      "id": "0044",
+      "name": "45",
+      "source": "ostrava",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0044.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0044.png",
+      "positive_fraction": 0.026073
+    },
+    {
+      "id": "0045",
+      "name": "46",
+      "source": "ostrava",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0045.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0045.png",
+      "positive_fraction": 0.5779
+    },
+    {
+      "id": "0046",
+      "name": "47",
+      "source": "ostrava",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0046.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0046.png",
+      "positive_fraction": 0.627689
+    },
+    {
+      "id": "0047",
+      "name": "48",
+      "source": "ostrava",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0047.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0047.png",
+      "positive_fraction": 0.058956
+    },
+    {
+      "id": "0048",
+      "name": "49",
+      "source": "ostrava",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0048.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0048.png",
+      "positive_fraction": 0.055458
+    },
+    {
+      "id": "0049",
+      "name": "50",
+      "source": "ostrava",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0049.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0049.png",
+      "positive_fraction": 0.019772
+    },
+    {
+      "id": "0050",
+      "name": "51",
+      "source": "ostrava",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0050.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0050.png",
+      "positive_fraction": 0.054878
+    },
+    {
+      "id": "0051",
+      "name": "52",
+      "source": "ostrava",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0051.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0051.png",
+      "positive_fraction": 0.160862
+    },
+    {
+      "id": "0052",
+      "name": "53",
+      "source": "ostrava",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0052.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0052.png",
+      "positive_fraction": 0.03244
+    },
+    {
+      "id": "0053",
+      "name": "54",
+      "source": "ostrava",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0053.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0053.png",
+      "positive_fraction": 0.072327
+    },
+    {
+      "id": "0054",
+      "name": "55",
+      "source": "ostrava",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0054.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0054.png",
+      "positive_fraction": 0.059254
+    },
+    {
+      "id": "0055",
+      "name": "56",
+      "source": "ostrava",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0055.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0055.png",
+      "positive_fraction": 0.03651
+    },
+    {
+      "id": "0056",
+      "name": "57",
+      "source": "ostrava",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0056.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0056.png",
+      "positive_fraction": 0.012253
+    },
+    {
+      "id": "0057",
+      "name": "58",
+      "source": "ostrava",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0057.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0057.png",
+      "positive_fraction": 0.036091
+    },
+    {
+      "id": "0058",
+      "name": "59",
+      "source": "ostrava",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0058.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0058.png",
+      "positive_fraction": 0.305717
+    },
+    {
+      "id": "0059",
+      "name": "60",
+      "source": "ostrava",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0059.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0059.png",
+      "positive_fraction": 0.742264
+    },
+    {
+      "id": "0060",
+      "name": "61",
+      "source": "ostrava",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0060.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0060.png",
+      "positive_fraction": 0.062431
+    },
+    {
+      "id": "0061",
+      "name": "62",
+      "source": "ostrava",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0061.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0061.png",
+      "positive_fraction": 0.083111
+    },
+    {
+      "id": "0062",
+      "name": "63",
+      "source": "ostrava",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0062.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0062.png",
+      "positive_fraction": 0.039886
+    },
+    {
+      "id": "0063",
+      "name": "64",
+      "source": "ostrava",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0063.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0063.png",
+      "positive_fraction": 0.126423
+    },
+    {
+      "id": "0064",
+      "name": "65",
+      "source": "ostrava",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0064.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0064.png",
+      "positive_fraction": 0.00695
+    },
+    {
+      "id": "0065",
+      "name": "66",
+      "source": "ostrava",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0065.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0065.png",
+      "positive_fraction": 0.989246
+    },
+    {
+      "id": "0066",
+      "name": "67",
+      "source": "ostrava",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0066.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0066.png",
+      "positive_fraction": 0.694809
+    },
+    {
+      "id": "0067",
+      "name": "68",
+      "source": "ostrava",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0067.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0067.png",
+      "positive_fraction": 0.047565
+    },
+    {
+      "id": "0068",
+      "name": "69",
+      "source": "ostrava",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0068.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0068.png",
+      "positive_fraction": 0.624245
+    },
+    {
+      "id": "0069",
+      "name": "70",
+      "source": "ostrava",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0069.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0069.png",
+      "positive_fraction": 0.00433
+    },
+    {
+      "id": "0070",
+      "name": "71",
+      "source": "ostrava",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0070.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0070.png",
+      "positive_fraction": 0.283993
+    },
+    {
+      "id": "0071",
+      "name": "72",
+      "source": "ostrava",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0071.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0071.png",
+      "positive_fraction": 0.185043
+    },
+    {
+      "id": "0072",
+      "name": "73",
+      "source": "ostrava",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0072.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0072.png",
+      "positive_fraction": 0.0
+    },
+    {
+      "id": "0073",
+      "name": "74",
+      "source": "ostrava",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0073.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0073.png",
+      "positive_fraction": 0.0
+    },
+    {
+      "id": "0074",
+      "name": "75",
+      "source": "ostrava",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0074.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0074.png",
+      "positive_fraction": 0.0
+    },
+    {
+      "id": "0075",
+      "name": "01",
+      "source": "ostrava",
+      "split": "val",
+      "image": "dataset\\processed\\kt3\\images\\0075.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0075.png",
+      "positive_fraction": 0.021
+    },
+    {
+      "id": "0076",
+      "name": "02",
+      "source": "ostrava",
+      "split": "val",
+      "image": "dataset\\processed\\kt3\\images\\0076.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0076.png",
+      "positive_fraction": 0.032829
+    },
+    {
+      "id": "0077",
+      "name": "03",
+      "source": "ostrava",
+      "split": "val",
+      "image": "dataset\\processed\\kt3\\images\\0077.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0077.png",
+      "positive_fraction": 1.0
+    },
+    {
+      "id": "0078",
+      "name": "04",
+      "source": "ostrava",
+      "split": "val",
+      "image": "dataset\\processed\\kt3\\images\\0078.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0078.png",
+      "positive_fraction": 0.349709
+    },
+    {
+      "id": "0079",
+      "name": "05",
+      "source": "ostrava",
+      "split": "val",
+      "image": "dataset\\processed\\kt3\\images\\0079.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0079.png",
+      "positive_fraction": 0.065449
+    },
+    {
+      "id": "0080",
+      "name": "06",
+      "source": "ostrava",
+      "split": "val",
+      "image": "dataset\\processed\\kt3\\images\\0080.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0080.png",
+      "positive_fraction": 0.100407
+    },
+    {
+      "id": "0081",
+      "name": "07",
+      "source": "ostrava",
+      "split": "val",
+      "image": "dataset\\processed\\kt3\\images\\0081.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0081.png",
+      "positive_fraction": 0.072697
+    },
+    {
+      "id": "0082",
+      "name": "08",
+      "source": "ostrava",
+      "split": "val",
+      "image": "dataset\\processed\\kt3\\images\\0082.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0082.png",
+      "positive_fraction": 0.491299
+    },
+    {
+      "id": "0083",
+      "name": "09",
+      "source": "ostrava",
+      "split": "val",
+      "image": "dataset\\processed\\kt3\\images\\0083.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0083.png",
+      "positive_fraction": 0.247746
+    },
+    {
+      "id": "0084",
+      "name": "10",
+      "source": "ostrava",
+      "split": "val",
+      "image": "dataset\\processed\\kt3\\images\\0084.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0084.png",
+      "positive_fraction": 0.420708
+    },
+    {
+      "id": "0085",
+      "name": "11",
+      "source": "ostrava",
+      "split": "val",
+      "image": "dataset\\processed\\kt3\\images\\0085.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0085.png",
+      "positive_fraction": 0.428986
+    },
+    {
+      "id": "0086",
+      "name": "12",
+      "source": "ostrava",
+      "split": "val",
+      "image": "dataset\\processed\\kt3\\images\\0086.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0086.png",
+      "positive_fraction": 0.152527
+    },
+    {
+      "id": "0087",
+      "name": "13",
+      "source": "ostrava",
+      "split": "val",
+      "image": "dataset\\processed\\kt3\\images\\0087.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0087.png",
+      "positive_fraction": 0.10722
+    },
+    {
+      "id": "0088",
+      "name": "14",
+      "source": "ostrava",
+      "split": "val",
+      "image": "dataset\\processed\\kt3\\images\\0088.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0088.png",
+      "positive_fraction": 0.157658
+    },
+    {
+      "id": "0089",
+      "name": "15",
+      "source": "ostrava",
+      "split": "val",
+      "image": "dataset\\processed\\kt3\\images\\0089.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0089.png",
+      "positive_fraction": 0.106819
+    },
+    {
+      "id": "0090",
+      "name": "01",
+      "source": "ostrava",
+      "split": "test",
+      "image": "dataset\\processed\\kt3\\images\\0090.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0090.png",
+      "positive_fraction": 0.120987
+    },
+    {
+      "id": "0091",
+      "name": "02",
+      "source": "ostrava",
+      "split": "test",
+      "image": "dataset\\processed\\kt3\\images\\0091.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0091.png",
+      "positive_fraction": 0.714851
+    },
+    {
+      "id": "0092",
+      "name": "03",
+      "source": "ostrava",
+      "split": "test",
+      "image": "dataset\\processed\\kt3\\images\\0092.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0092.png",
+      "positive_fraction": 0.388958
+    },
+    {
+      "id": "0093",
+      "name": "04",
+      "source": "ostrava",
+      "split": "test",
+      "image": "dataset\\processed\\kt3\\images\\0093.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0093.png",
+      "positive_fraction": 0.639484
+    },
+    {
+      "id": "0094",
+      "name": "05",
+      "source": "ostrava",
+      "split": "test",
+      "image": "dataset\\processed\\kt3\\images\\0094.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0094.png",
+      "positive_fraction": 0.092625
+    },
+    {
+      "id": "0095",
+      "name": "06",
+      "source": "ostrava",
+      "split": "test",
+      "image": "dataset\\processed\\kt3\\images\\0095.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0095.png",
+      "positive_fraction": 0.186695
+    },
+    {
+      "id": "0096",
+      "name": "07",
+      "source": "ostrava",
+      "split": "test",
+      "image": "dataset\\processed\\kt3\\images\\0096.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0096.png",
+      "positive_fraction": 0.08083
+    },
+    {
+      "id": "0097",
+      "name": "08",
+      "source": "ostrava",
+      "split": "test",
+      "image": "dataset\\processed\\kt3\\images\\0097.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0097.png",
+      "positive_fraction": 0.219822
+    },
+    {
+      "id": "0098",
+      "name": "09",
+      "source": "ostrava",
+      "split": "test",
+      "image": "dataset\\processed\\kt3\\images\\0098.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0098.png",
+      "positive_fraction": 0.101791
+    },
+    {
+      "id": "0099",
+      "name": "10",
+      "source": "ostrava",
+      "split": "test",
+      "image": "dataset\\processed\\kt3\\images\\0099.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0099.png",
+      "positive_fraction": 0.107452
+    },
+    {
+      "id": "0100",
+      "name": "11",
+      "source": "ostrava",
+      "split": "test",
+      "image": "dataset\\processed\\kt3\\images\\0100.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0100.png",
+      "positive_fraction": 0.126896
+    },
+    {
+      "id": "0101",
+      "name": "12",
+      "source": "ostrava",
+      "split": "test",
+      "image": "dataset\\processed\\kt3\\images\\0101.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0101.png",
+      "positive_fraction": 0.138355
+    },
+    {
+      "id": "0102",
+      "name": "13",
+      "source": "ostrava",
+      "split": "test",
+      "image": "dataset\\processed\\kt3\\images\\0102.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0102.png",
+      "positive_fraction": 0.075016
+    },
+    {
+      "id": "0103",
+      "name": "14",
+      "source": "ostrava",
+      "split": "test",
+      "image": "dataset\\processed\\kt3\\images\\0103.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0103.png",
+      "positive_fraction": 0.021656
+    },
+    {
+      "id": "0104",
+      "name": "15",
+      "source": "ostrava",
+      "split": "test",
+      "image": "dataset\\processed\\kt3\\images\\0104.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0104.png",
+      "positive_fraction": 0.137581
+    },
+    {
+      "id": "0105",
+      "name": "0",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0105.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0105.png",
+      "positive_fraction": 0.171753
+    },
+    {
+      "id": "0106",
+      "name": "1",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0106.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0106.png",
+      "positive_fraction": 0.036221
+    },
+    {
+      "id": "0107",
+      "name": "10",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0107.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0107.png",
+      "positive_fraction": 0.140182
+    },
+    {
+      "id": "0108",
+      "name": "100",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0108.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0108.png",
+      "positive_fraction": 0.004742
+    },
+    {
+      "id": "0109",
+      "name": "101",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0109.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0109.png",
+      "positive_fraction": 0.1423
+    },
+    {
+      "id": "0110",
+      "name": "102",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0110.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0110.png",
+      "positive_fraction": 0.181763
+    },
+    {
+      "id": "0111",
+      "name": "103",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0111.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0111.png",
+      "positive_fraction": 0.181755
+    },
+    {
+      "id": "0112",
+      "name": "104",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0112.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0112.png",
+      "positive_fraction": 0.071465
+    },
+    {
+      "id": "0113",
+      "name": "105",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0113.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0113.png",
+      "positive_fraction": 0.022713
+    },
+    {
+      "id": "0114",
+      "name": "106",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0114.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0114.png",
+      "positive_fraction": 0.029205
+    },
+    {
+      "id": "0115",
+      "name": "107",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0115.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0115.png",
+      "positive_fraction": 0.014717
+    },
+    {
+      "id": "0116",
+      "name": "108",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0116.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0116.png",
+      "positive_fraction": 0.121323
+    },
+    {
+      "id": "0117",
+      "name": "109",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0117.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0117.png",
+      "positive_fraction": 0.286701
+    },
+    {
+      "id": "0118",
+      "name": "11",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0118.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0118.png",
+      "positive_fraction": 0.007954
+    },
+    {
+      "id": "0119",
+      "name": "110",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0119.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0119.png",
+      "positive_fraction": 0.349266
+    },
+    {
+      "id": "0120",
+      "name": "111",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0120.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0120.png",
+      "positive_fraction": 0.311081
+    },
+    {
+      "id": "0121",
+      "name": "112",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0121.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0121.png",
+      "positive_fraction": 0.243446
+    },
+    {
+      "id": "0122",
+      "name": "113",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0122.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0122.png",
+      "positive_fraction": 0.050129
+    },
+    {
+      "id": "0123",
+      "name": "114",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0123.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0123.png",
+      "positive_fraction": 0.018986
+    },
+    {
+      "id": "0124",
+      "name": "115",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0124.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0124.png",
+      "positive_fraction": 0.009995
+    },
+    {
+      "id": "0125",
+      "name": "116",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0125.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0125.png",
+      "positive_fraction": 0.041439
+    },
+    {
+      "id": "0126",
+      "name": "117",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0126.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0126.png",
+      "positive_fraction": 0.120197
+    },
+    {
+      "id": "0127",
+      "name": "118",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0127.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0127.png",
+      "positive_fraction": 0.105541
+    },
+    {
+      "id": "0128",
+      "name": "119",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0128.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0128.png",
+      "positive_fraction": 0.197746
+    },
+    {
+      "id": "0129",
+      "name": "12",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0129.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0129.png",
+      "positive_fraction": 0.384327
+    },
+    {
+      "id": "0130",
+      "name": "120",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0130.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0130.png",
+      "positive_fraction": 0.198498
+    },
+    {
+      "id": "0131",
+      "name": "121",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0131.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0131.png",
+      "positive_fraction": 0.04129
+    },
+    {
+      "id": "0132",
+      "name": "122",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0132.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0132.png",
+      "positive_fraction": 0.227612
+    },
+    {
+      "id": "0133",
+      "name": "123",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0133.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0133.png",
+      "positive_fraction": 0.188774
+    },
+    {
+      "id": "0134",
+      "name": "124",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0134.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0134.png",
+      "positive_fraction": 0.183319
+    },
+    {
+      "id": "0135",
+      "name": "125",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0135.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0135.png",
+      "positive_fraction": 0.352871
+    },
+    {
+      "id": "0136",
+      "name": "126",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0136.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0136.png",
+      "positive_fraction": 0.434277
+    },
+    {
+      "id": "0137",
+      "name": "127",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0137.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0137.png",
+      "positive_fraction": 0.056168
+    },
+    {
+      "id": "0138",
+      "name": "128",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0138.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0138.png",
+      "positive_fraction": 0.042259
+    },
+    {
+      "id": "0139",
+      "name": "129",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0139.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0139.png",
+      "positive_fraction": 0.344803
+    },
+    {
+      "id": "0140",
+      "name": "13",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0140.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0140.png",
+      "positive_fraction": 0.041233
+    },
+    {
+      "id": "0141",
+      "name": "130",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0141.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0141.png",
+      "positive_fraction": 0.51651
+    },
+    {
+      "id": "0142",
+      "name": "131",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0142.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0142.png",
+      "positive_fraction": 0.430573
+    },
+    {
+      "id": "0143",
+      "name": "132",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0143.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0143.png",
+      "positive_fraction": 0.247097
+    },
+    {
+      "id": "0144",
+      "name": "133",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0144.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0144.png",
+      "positive_fraction": 0.095528
+    },
+    {
+      "id": "0145",
+      "name": "134",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0145.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0145.png",
+      "positive_fraction": 0.027439
+    },
+    {
+      "id": "0146",
+      "name": "135",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0146.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0146.png",
+      "positive_fraction": 0.03661
+    },
+    {
+      "id": "0147",
+      "name": "136",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0147.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0147.png",
+      "positive_fraction": 0.250641
+    },
+    {
+      "id": "0148",
+      "name": "137",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0148.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0148.png",
+      "positive_fraction": 0.072685
+    },
+    {
+      "id": "0149",
+      "name": "138",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0149.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0149.png",
+      "positive_fraction": 0.196125
+    },
+    {
+      "id": "0150",
+      "name": "139",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0150.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0150.png",
+      "positive_fraction": 0.337196
+    },
+    {
+      "id": "0151",
+      "name": "14",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0151.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0151.png",
+      "positive_fraction": 0.057755
+    },
+    {
+      "id": "0152",
+      "name": "140",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0152.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0152.png",
+      "positive_fraction": 0.225452
+    },
+    {
+      "id": "0153",
+      "name": "141",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0153.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0153.png",
+      "positive_fraction": 0.183723
+    },
+    {
+      "id": "0154",
+      "name": "142",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0154.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0154.png",
+      "positive_fraction": 0.215073
+    },
+    {
+      "id": "0155",
+      "name": "143",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0155.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0155.png",
+      "positive_fraction": 0.434105
+    },
+    {
+      "id": "0156",
+      "name": "144",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0156.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0156.png",
+      "positive_fraction": 0.221691
+    },
+    {
+      "id": "0157",
+      "name": "145",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0157.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0157.png",
+      "positive_fraction": 0.001919
+    },
+    {
+      "id": "0158",
+      "name": "146",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0158.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0158.png",
+      "positive_fraction": 0.00193
+    },
+    {
+      "id": "0159",
+      "name": "147",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0159.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0159.png",
+      "positive_fraction": 0.006958
+    },
+    {
+      "id": "0160",
+      "name": "148",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0160.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0160.png",
+      "positive_fraction": 0.199539
+    },
+    {
+      "id": "0161",
+      "name": "149",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0161.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0161.png",
+      "positive_fraction": 0.079899
+    },
+    {
+      "id": "0162",
+      "name": "15",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0162.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0162.png",
+      "positive_fraction": 0.300884
+    },
+    {
+      "id": "0163",
+      "name": "150",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0163.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0163.png",
+      "positive_fraction": 0.114971
+    },
+    {
+      "id": "0164",
+      "name": "151",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0164.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0164.png",
+      "positive_fraction": 0.222294
+    },
+    {
+      "id": "0165",
+      "name": "152",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0165.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0165.png",
+      "positive_fraction": 0.277927
+    },
+    {
+      "id": "0166",
+      "name": "153",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0166.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0166.png",
+      "positive_fraction": 0.389301
+    },
+    {
+      "id": "0167",
+      "name": "154",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0167.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0167.png",
+      "positive_fraction": 0.264286
+    },
+    {
+      "id": "0168",
+      "name": "155",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0168.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0168.png",
+      "positive_fraction": 0.306644
+    },
+    {
+      "id": "0169",
+      "name": "156",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0169.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0169.png",
+      "positive_fraction": 0.286789
+    },
+    {
+      "id": "0170",
+      "name": "157",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0170.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0170.png",
+      "positive_fraction": 0.311249
+    },
+    {
+      "id": "0171",
+      "name": "158",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0171.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0171.png",
+      "positive_fraction": 0.083015
+    },
+    {
+      "id": "0172",
+      "name": "159",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0172.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0172.png",
+      "positive_fraction": 0.110943
+    },
+    {
+      "id": "0173",
+      "name": "16",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0173.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0173.png",
+      "positive_fraction": 0.294533
+    },
+    {
+      "id": "0174",
+      "name": "160",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0174.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0174.png",
+      "positive_fraction": 0.070156
+    },
+    {
+      "id": "0175",
+      "name": "161",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0175.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0175.png",
+      "positive_fraction": 0.002464
+    },
+    {
+      "id": "0176",
+      "name": "162",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0176.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0176.png",
+      "positive_fraction": 0.189007
+    },
+    {
+      "id": "0177",
+      "name": "163",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0177.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0177.png",
+      "positive_fraction": 0.107319
+    },
+    {
+      "id": "0178",
+      "name": "164",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0178.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0178.png",
+      "positive_fraction": 0.006596
+    },
+    {
+      "id": "0179",
+      "name": "165",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0179.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0179.png",
+      "positive_fraction": 0.007854
+    },
+    {
+      "id": "0180",
+      "name": "166",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0180.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0180.png",
+      "positive_fraction": 0.027786
+    },
+    {
+      "id": "0181",
+      "name": "167",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0181.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0181.png",
+      "positive_fraction": 0.042862
+    },
+    {
+      "id": "0182",
+      "name": "168",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0182.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0182.png",
+      "positive_fraction": 0.042866
+    },
+    {
+      "id": "0183",
+      "name": "169",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0183.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0183.png",
+      "positive_fraction": 0.191269
+    },
+    {
+      "id": "0184",
+      "name": "17",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0184.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0184.png",
+      "positive_fraction": 0.014305
+    },
+    {
+      "id": "0185",
+      "name": "170",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0185.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0185.png",
+      "positive_fraction": 0.033974
+    },
+    {
+      "id": "0186",
+      "name": "171",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0186.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0186.png",
+      "positive_fraction": 0.05492
+    },
+    {
+      "id": "0187",
+      "name": "172",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0187.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0187.png",
+      "positive_fraction": 0.230106
+    },
+    {
+      "id": "0188",
+      "name": "173",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0188.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0188.png",
+      "positive_fraction": 0.277416
+    },
+    {
+      "id": "0189",
+      "name": "174",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0189.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0189.png",
+      "positive_fraction": 0.344273
+    },
+    {
+      "id": "0190",
+      "name": "175",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0190.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0190.png",
+      "positive_fraction": 0.016846
+    },
+    {
+      "id": "0191",
+      "name": "176",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0191.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0191.png",
+      "positive_fraction": 0.007355
+    },
+    {
+      "id": "0192",
+      "name": "177",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0192.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0192.png",
+      "positive_fraction": 0.100254
+    },
+    {
+      "id": "0193",
+      "name": "178",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0193.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0193.png",
+      "positive_fraction": 0.135403
+    },
+    {
+      "id": "0194",
+      "name": "179",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0194.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0194.png",
+      "positive_fraction": 0.236839
+    },
+    {
+      "id": "0195",
+      "name": "18",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0195.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0195.png",
+      "positive_fraction": 0.04282
+    },
+    {
+      "id": "0196",
+      "name": "180",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0196.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0196.png",
+      "positive_fraction": 0.462296
+    },
+    {
+      "id": "0197",
+      "name": "181",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0197.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0197.png",
+      "positive_fraction": 0.159733
+    },
+    {
+      "id": "0198",
+      "name": "182",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0198.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0198.png",
+      "positive_fraction": 0.123844
+    },
+    {
+      "id": "0199",
+      "name": "183",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0199.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0199.png",
+      "positive_fraction": 0.30732
+    },
+    {
+      "id": "0200",
+      "name": "184",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0200.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0200.png",
+      "positive_fraction": 0.120434
+    },
+    {
+      "id": "0201",
+      "name": "185",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0201.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0201.png",
+      "positive_fraction": 0.315483
+    },
+    {
+      "id": "0202",
+      "name": "186",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0202.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0202.png",
+      "positive_fraction": 0.077522
+    },
+    {
+      "id": "0203",
+      "name": "187",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0203.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0203.png",
+      "positive_fraction": 0.468674
+    },
+    {
+      "id": "0204",
+      "name": "188",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0204.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0204.png",
+      "positive_fraction": 0.604736
+    },
+    {
+      "id": "0205",
+      "name": "189",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0205.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0205.png",
+      "positive_fraction": 0.148922
+    },
+    {
+      "id": "0206",
+      "name": "19",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0206.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0206.png",
+      "positive_fraction": 0.018211
+    },
+    {
+      "id": "0207",
+      "name": "190",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0207.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0207.png",
+      "positive_fraction": 0.010284
+    },
+    {
+      "id": "0208",
+      "name": "191",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0208.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0208.png",
+      "positive_fraction": 0.107174
+    },
+    {
+      "id": "0209",
+      "name": "192",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0209.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0209.png",
+      "positive_fraction": 0.010639
+    },
+    {
+      "id": "0210",
+      "name": "193",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0210.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0210.png",
+      "positive_fraction": 0.358047
+    },
+    {
+      "id": "0211",
+      "name": "194",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0211.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0211.png",
+      "positive_fraction": 0.508068
+    },
+    {
+      "id": "0212",
+      "name": "195",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0212.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0212.png",
+      "positive_fraction": 0.403038
+    },
+    {
+      "id": "0213",
+      "name": "196",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0213.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0213.png",
+      "positive_fraction": 0.662315
+    },
+    {
+      "id": "0214",
+      "name": "197",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0214.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0214.png",
+      "positive_fraction": 0.499306
+    },
+    {
+      "id": "0215",
+      "name": "198",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0215.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0215.png",
+      "positive_fraction": 0.36446
+    },
+    {
+      "id": "0216",
+      "name": "199",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0216.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0216.png",
+      "positive_fraction": 0.175186
+    },
+    {
+      "id": "0217",
+      "name": "2",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0217.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0217.png",
+      "positive_fraction": 0.029152
+    },
+    {
+      "id": "0218",
+      "name": "20",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0218.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0218.png",
+      "positive_fraction": 0.077034
+    },
+    {
+      "id": "0219",
+      "name": "200",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0219.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0219.png",
+      "positive_fraction": 0.032215
+    },
+    {
+      "id": "0220",
+      "name": "201",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0220.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0220.png",
+      "positive_fraction": 0.227108
+    },
+    {
+      "id": "0221",
+      "name": "202",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0221.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0221.png",
+      "positive_fraction": 0.414467
+    },
+    {
+      "id": "0222",
+      "name": "203",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0222.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0222.png",
+      "positive_fraction": 0.145176
+    },
+    {
+      "id": "0223",
+      "name": "204",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0223.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0223.png",
+      "positive_fraction": 0.131142
+    },
+    {
+      "id": "0224",
+      "name": "205",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0224.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0224.png",
+      "positive_fraction": 0.35722
+    },
+    {
+      "id": "0225",
+      "name": "206",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0225.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0225.png",
+      "positive_fraction": 0.179634
+    },
+    {
+      "id": "0226",
+      "name": "207",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0226.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0226.png",
+      "positive_fraction": 0.459049
+    },
+    {
+      "id": "0227",
+      "name": "208",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0227.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0227.png",
+      "positive_fraction": 0.095127
+    },
+    {
+      "id": "0228",
+      "name": "209",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0228.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0228.png",
+      "positive_fraction": 0.028419
+    },
+    {
+      "id": "0229",
+      "name": "21",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0229.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0229.png",
+      "positive_fraction": 0.020679
+    },
+    {
+      "id": "0230",
+      "name": "210",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0230.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0230.png",
+      "positive_fraction": 0.515881
+    },
+    {
+      "id": "0231",
+      "name": "211",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0231.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0231.png",
+      "positive_fraction": 0.103798
+    },
+    {
+      "id": "0232",
+      "name": "212",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0232.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0232.png",
+      "positive_fraction": 0.131393
+    },
+    {
+      "id": "0233",
+      "name": "213",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0233.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0233.png",
+      "positive_fraction": 0.358452
+    },
+    {
+      "id": "0234",
+      "name": "214",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0234.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0234.png",
+      "positive_fraction": 0.244907
+    },
+    {
+      "id": "0235",
+      "name": "215",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0235.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0235.png",
+      "positive_fraction": 0.229355
+    },
+    {
+      "id": "0236",
+      "name": "216",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0236.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0236.png",
+      "positive_fraction": 0.230808
+    },
+    {
+      "id": "0237",
+      "name": "217",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0237.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0237.png",
+      "positive_fraction": 0.713871
+    },
+    {
+      "id": "0238",
+      "name": "218",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0238.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0238.png",
+      "positive_fraction": 0.492294
+    },
+    {
+      "id": "0239",
+      "name": "219",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0239.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0239.png",
+      "positive_fraction": 0.298435
+    },
+    {
+      "id": "0240",
+      "name": "22",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0240.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0240.png",
+      "positive_fraction": 0.011005
+    },
+    {
+      "id": "0241",
+      "name": "220",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0241.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0241.png",
+      "positive_fraction": 0.083454
+    },
+    {
+      "id": "0242",
+      "name": "221",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0242.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0242.png",
+      "positive_fraction": 0.459248
+    },
+    {
+      "id": "0243",
+      "name": "222",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0243.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0243.png",
+      "positive_fraction": 0.075817
+    },
+    {
+      "id": "0244",
+      "name": "223",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0244.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0244.png",
+      "positive_fraction": 0.028481
+    },
+    {
+      "id": "0245",
+      "name": "224",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0245.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0245.png",
+      "positive_fraction": 0.086773
+    },
+    {
+      "id": "0246",
+      "name": "225",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0246.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0246.png",
+      "positive_fraction": 0.203297
+    },
+    {
+      "id": "0247",
+      "name": "226",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0247.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0247.png",
+      "positive_fraction": 0.024788
+    },
+    {
+      "id": "0248",
+      "name": "227",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0248.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0248.png",
+      "positive_fraction": 0.013596
+    },
+    {
+      "id": "0249",
+      "name": "228",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0249.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0249.png",
+      "positive_fraction": 0.05938
+    },
+    {
+      "id": "0250",
+      "name": "229",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0250.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0250.png",
+      "positive_fraction": 0.078365
+    },
+    {
+      "id": "0251",
+      "name": "23",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0251.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0251.png",
+      "positive_fraction": 0.224705
+    },
+    {
+      "id": "0252",
+      "name": "230",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0252.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0252.png",
+      "positive_fraction": 0.180943
+    },
+    {
+      "id": "0253",
+      "name": "231",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0253.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0253.png",
+      "positive_fraction": 0.319622
+    },
+    {
+      "id": "0254",
+      "name": "232",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0254.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0254.png",
+      "positive_fraction": 0.225285
+    },
+    {
+      "id": "0255",
+      "name": "233",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0255.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0255.png",
+      "positive_fraction": 0.09716
+    },
+    {
+      "id": "0256",
+      "name": "234",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0256.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0256.png",
+      "positive_fraction": 0.114681
+    },
+    {
+      "id": "0257",
+      "name": "235",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0257.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0257.png",
+      "positive_fraction": 0.103065
+    },
+    {
+      "id": "0258",
+      "name": "236",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0258.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0258.png",
+      "positive_fraction": 0.106548
+    },
+    {
+      "id": "0259",
+      "name": "237",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0259.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0259.png",
+      "positive_fraction": 0.202221
+    },
+    {
+      "id": "0260",
+      "name": "238",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0260.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0260.png",
+      "positive_fraction": 0.135216
+    },
+    {
+      "id": "0261",
+      "name": "239",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0261.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0261.png",
+      "positive_fraction": 0.057461
+    },
+    {
+      "id": "0262",
+      "name": "24",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0262.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0262.png",
+      "positive_fraction": 0.044373
+    },
+    {
+      "id": "0263",
+      "name": "240",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0263.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0263.png",
+      "positive_fraction": 0.245674
+    },
+    {
+      "id": "0264",
+      "name": "241",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0264.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0264.png",
+      "positive_fraction": 0.217609
+    },
+    {
+      "id": "0265",
+      "name": "242",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0265.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0265.png",
+      "positive_fraction": 0.19883
+    },
+    {
+      "id": "0266",
+      "name": "243",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0266.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0266.png",
+      "positive_fraction": 0.253071
+    },
+    {
+      "id": "0267",
+      "name": "244",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0267.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0267.png",
+      "positive_fraction": 0.361961
+    },
+    {
+      "id": "0268",
+      "name": "245",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0268.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0268.png",
+      "positive_fraction": 0.162613
+    },
+    {
+      "id": "0269",
+      "name": "246",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0269.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0269.png",
+      "positive_fraction": 0.27071
+    },
+    {
+      "id": "0270",
+      "name": "247",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0270.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0270.png",
+      "positive_fraction": 0.553429
+    },
+    {
+      "id": "0271",
+      "name": "248",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0271.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0271.png",
+      "positive_fraction": 0.5285
+    },
+    {
+      "id": "0272",
+      "name": "249",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0272.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0272.png",
+      "positive_fraction": 0.311172
+    },
+    {
+      "id": "0273",
+      "name": "25",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0273.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0273.png",
+      "positive_fraction": 0.414295
+    },
+    {
+      "id": "0274",
+      "name": "250",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0274.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0274.png",
+      "positive_fraction": 0.323551
+    },
+    {
+      "id": "0275",
+      "name": "251",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0275.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0275.png",
+      "positive_fraction": 0.29829
+    },
+    {
+      "id": "0276",
+      "name": "252",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0276.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0276.png",
+      "positive_fraction": 0.19194
+    },
+    {
+      "id": "0277",
+      "name": "253",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0277.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0277.png",
+      "positive_fraction": 0.289429
+    },
+    {
+      "id": "0278",
+      "name": "254",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0278.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0278.png",
+      "positive_fraction": 0.794746
+    },
+    {
+      "id": "0279",
+      "name": "255",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0279.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0279.png",
+      "positive_fraction": 0.796883
+    },
+    {
+      "id": "0280",
+      "name": "256",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0280.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0280.png",
+      "positive_fraction": 0.136753
+    },
+    {
+      "id": "0281",
+      "name": "257",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0281.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0281.png",
+      "positive_fraction": 0.379078
+    },
+    {
+      "id": "0282",
+      "name": "258",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0282.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0282.png",
+      "positive_fraction": 0.272442
+    },
+    {
+      "id": "0283",
+      "name": "259",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0283.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0283.png",
+      "positive_fraction": 0.26189
+    },
+    {
+      "id": "0284",
+      "name": "26",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0284.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0284.png",
+      "positive_fraction": 0.132931
+    },
+    {
+      "id": "0285",
+      "name": "260",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0285.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0285.png",
+      "positive_fraction": 0.554913
+    },
+    {
+      "id": "0286",
+      "name": "261",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0286.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0286.png",
+      "positive_fraction": 0.719875
+    },
+    {
+      "id": "0287",
+      "name": "262",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0287.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0287.png",
+      "positive_fraction": 0.234585
+    },
+    {
+      "id": "0288",
+      "name": "263",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0288.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0288.png",
+      "positive_fraction": 0.2887
+    },
+    {
+      "id": "0289",
+      "name": "264",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0289.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0289.png",
+      "positive_fraction": 0.322899
+    },
+    {
+      "id": "0290",
+      "name": "265",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0290.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0290.png",
+      "positive_fraction": 0.230473
+    },
+    {
+      "id": "0291",
+      "name": "266",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0291.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0291.png",
+      "positive_fraction": 0.651005
+    },
+    {
+      "id": "0292",
+      "name": "267",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0292.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0292.png",
+      "positive_fraction": 0.033226
+    },
+    {
+      "id": "0293",
+      "name": "268",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0293.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0293.png",
+      "positive_fraction": 0.350185
+    },
+    {
+      "id": "0294",
+      "name": "269",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0294.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0294.png",
+      "positive_fraction": 0.404598
+    },
+    {
+      "id": "0295",
+      "name": "27",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0295.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0295.png",
+      "positive_fraction": 0.178322
+    },
+    {
+      "id": "0296",
+      "name": "270",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0296.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0296.png",
+      "positive_fraction": 0.586609
+    },
+    {
+      "id": "0297",
+      "name": "271",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0297.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0297.png",
+      "positive_fraction": 0.325912
+    },
+    {
+      "id": "0298",
+      "name": "272",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0298.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0298.png",
+      "positive_fraction": 0.201763
+    },
+    {
+      "id": "0299",
+      "name": "273",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0299.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0299.png",
+      "positive_fraction": 0.221684
+    },
+    {
+      "id": "0300",
+      "name": "274",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0300.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0300.png",
+      "positive_fraction": 0.304642
+    },
+    {
+      "id": "0301",
+      "name": "275",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0301.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0301.png",
+      "positive_fraction": 0.259365
+    },
+    {
+      "id": "0302",
+      "name": "276",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0302.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0302.png",
+      "positive_fraction": 0.05653
+    },
+    {
+      "id": "0303",
+      "name": "277",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0303.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0303.png",
+      "positive_fraction": 0.088161
+    },
+    {
+      "id": "0304",
+      "name": "278",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0304.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0304.png",
+      "positive_fraction": 0.267654
+    },
+    {
+      "id": "0305",
+      "name": "279",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0305.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0305.png",
+      "positive_fraction": 0.348492
+    },
+    {
+      "id": "0306",
+      "name": "28",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0306.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0306.png",
+      "positive_fraction": 0.118511
+    },
+    {
+      "id": "0307",
+      "name": "280",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0307.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0307.png",
+      "positive_fraction": 0.209763
+    },
+    {
+      "id": "0308",
+      "name": "281",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0308.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0308.png",
+      "positive_fraction": 0.325699
+    },
+    {
+      "id": "0309",
+      "name": "282",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0309.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0309.png",
+      "positive_fraction": 0.338284
+    },
+    {
+      "id": "0310",
+      "name": "283",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0310.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0310.png",
+      "positive_fraction": 0.158432
+    },
+    {
+      "id": "0311",
+      "name": "284",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0311.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0311.png",
+      "positive_fraction": 0.286533
+    },
+    {
+      "id": "0312",
+      "name": "285",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0312.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0312.png",
+      "positive_fraction": 0.521259
+    },
+    {
+      "id": "0313",
+      "name": "286",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0313.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0313.png",
+      "positive_fraction": 0.168156
+    },
+    {
+      "id": "0314",
+      "name": "287",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0314.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0314.png",
+      "positive_fraction": 0.13443
+    },
+    {
+      "id": "0315",
+      "name": "288",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0315.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0315.png",
+      "positive_fraction": 0.257515
+    },
+    {
+      "id": "0316",
+      "name": "289",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0316.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0316.png",
+      "positive_fraction": 0.192978
+    },
+    {
+      "id": "0317",
+      "name": "29",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0317.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0317.png",
+      "positive_fraction": 0.475609
+    },
+    {
+      "id": "0318",
+      "name": "290",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0318.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0318.png",
+      "positive_fraction": 0.467243
+    },
+    {
+      "id": "0319",
+      "name": "291",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0319.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0319.png",
+      "positive_fraction": 0.281956
+    },
+    {
+      "id": "0320",
+      "name": "292",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0320.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0320.png",
+      "positive_fraction": 0.286251
+    },
+    {
+      "id": "0321",
+      "name": "293",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0321.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0321.png",
+      "positive_fraction": 0.25877
+    },
+    {
+      "id": "0322",
+      "name": "294",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0322.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0322.png",
+      "positive_fraction": 0.363609
+    },
+    {
+      "id": "0323",
+      "name": "295",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0323.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0323.png",
+      "positive_fraction": 0.125732
+    },
+    {
+      "id": "0324",
+      "name": "296",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0324.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0324.png",
+      "positive_fraction": 0.174271
+    },
+    {
+      "id": "0325",
+      "name": "297",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0325.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0325.png",
+      "positive_fraction": 0.075729
+    },
+    {
+      "id": "0326",
+      "name": "298",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0326.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0326.png",
+      "positive_fraction": 0.161842
+    },
+    {
+      "id": "0327",
+      "name": "299",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0327.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0327.png",
+      "positive_fraction": 0.258678
+    },
+    {
+      "id": "0328",
+      "name": "3",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0328.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0328.png",
+      "positive_fraction": 0.024288
+    },
+    {
+      "id": "0329",
+      "name": "30",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0329.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0329.png",
+      "positive_fraction": 0.057102
+    },
+    {
+      "id": "0330",
+      "name": "300",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0330.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0330.png",
+      "positive_fraction": 0.148674
+    },
+    {
+      "id": "0331",
+      "name": "301",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0331.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0331.png",
+      "positive_fraction": 0.151199
+    },
+    {
+      "id": "0332",
+      "name": "302",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0332.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0332.png",
+      "positive_fraction": 0.237179
+    },
+    {
+      "id": "0333",
+      "name": "303",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0333.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0333.png",
+      "positive_fraction": 0.332092
+    },
+    {
+      "id": "0334",
+      "name": "304",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0334.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0334.png",
+      "positive_fraction": 0.313255
+    },
+    {
+      "id": "0335",
+      "name": "305",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0335.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0335.png",
+      "positive_fraction": 0.241226
+    },
+    {
+      "id": "0336",
+      "name": "306",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0336.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0336.png",
+      "positive_fraction": 0.324459
+    },
+    {
+      "id": "0337",
+      "name": "307",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0337.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0337.png",
+      "positive_fraction": 0.164326
+    },
+    {
+      "id": "0338",
+      "name": "308",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0338.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0338.png",
+      "positive_fraction": 0.337147
+    },
+    {
+      "id": "0339",
+      "name": "309",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0339.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0339.png",
+      "positive_fraction": 0.213722
+    },
+    {
+      "id": "0340",
+      "name": "31",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0340.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0340.png",
+      "positive_fraction": 0.087173
+    },
+    {
+      "id": "0341",
+      "name": "310",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0341.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0341.png",
+      "positive_fraction": 0.178951
+    },
+    {
+      "id": "0342",
+      "name": "311",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0342.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0342.png",
+      "positive_fraction": 0.236462
+    },
+    {
+      "id": "0343",
+      "name": "312",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0343.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0343.png",
+      "positive_fraction": 0.396442
+    },
+    {
+      "id": "0344",
+      "name": "313",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0344.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0344.png",
+      "positive_fraction": 0.216011
+    },
+    {
+      "id": "0345",
+      "name": "314",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0345.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0345.png",
+      "positive_fraction": 0.254272
+    },
+    {
+      "id": "0346",
+      "name": "315",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0346.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0346.png",
+      "positive_fraction": 0.274273
+    },
+    {
+      "id": "0347",
+      "name": "316",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0347.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0347.png",
+      "positive_fraction": 0.417534
+    },
+    {
+      "id": "0348",
+      "name": "317",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0348.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0348.png",
+      "positive_fraction": 0.214951
+    },
+    {
+      "id": "0349",
+      "name": "318",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0349.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0349.png",
+      "positive_fraction": 0.197502
+    },
+    {
+      "id": "0350",
+      "name": "319",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0350.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0350.png",
+      "positive_fraction": 0.150158
+    },
+    {
+      "id": "0351",
+      "name": "32",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0351.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0351.png",
+      "positive_fraction": 0.103233
+    },
+    {
+      "id": "0352",
+      "name": "320",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0352.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0352.png",
+      "positive_fraction": 0.297432
+    },
+    {
+      "id": "0353",
+      "name": "321",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0353.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0353.png",
+      "positive_fraction": 0.482616
+    },
+    {
+      "id": "0354",
+      "name": "322",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0354.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0354.png",
+      "positive_fraction": 0.36359
+    },
+    {
+      "id": "0355",
+      "name": "323",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0355.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0355.png",
+      "positive_fraction": 0.252819
+    },
+    {
+      "id": "0356",
+      "name": "324",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0356.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0356.png",
+      "positive_fraction": 0.511261
+    },
+    {
+      "id": "0357",
+      "name": "325",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0357.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0357.png",
+      "positive_fraction": 0.40065
+    },
+    {
+      "id": "0358",
+      "name": "326",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0358.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0358.png",
+      "positive_fraction": 0.437618
+    },
+    {
+      "id": "0359",
+      "name": "327",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0359.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0359.png",
+      "positive_fraction": 0.491356
+    },
+    {
+      "id": "0360",
+      "name": "328",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0360.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0360.png",
+      "positive_fraction": 0.673794
+    },
+    {
+      "id": "0361",
+      "name": "329",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0361.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0361.png",
+      "positive_fraction": 0.293316
+    },
+    {
+      "id": "0362",
+      "name": "33",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0362.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0362.png",
+      "positive_fraction": 0.246513
+    },
+    {
+      "id": "0363",
+      "name": "330",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0363.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0363.png",
+      "positive_fraction": 0.285484
+    },
+    {
+      "id": "0364",
+      "name": "331",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0364.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0364.png",
+      "positive_fraction": 0.21497
+    },
+    {
+      "id": "0365",
+      "name": "332",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0365.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0365.png",
+      "positive_fraction": 0.337078
+    },
+    {
+      "id": "0366",
+      "name": "333",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0366.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0366.png",
+      "positive_fraction": 0.272701
+    },
+    {
+      "id": "0367",
+      "name": "334",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0367.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0367.png",
+      "positive_fraction": 0.45734
+    },
+    {
+      "id": "0368",
+      "name": "335",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0368.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0368.png",
+      "positive_fraction": 0.532421
+    },
+    {
+      "id": "0369",
+      "name": "336",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0369.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0369.png",
+      "positive_fraction": 0.266083
+    },
+    {
+      "id": "0370",
+      "name": "337",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0370.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0370.png",
+      "positive_fraction": 0.505379
+    },
+    {
+      "id": "0371",
+      "name": "338",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0371.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0371.png",
+      "positive_fraction": 0.412109
+    },
+    {
+      "id": "0372",
+      "name": "339",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0372.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0372.png",
+      "positive_fraction": 0.686665
+    },
+    {
+      "id": "0373",
+      "name": "34",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0373.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0373.png",
+      "positive_fraction": 0.375816
+    },
+    {
+      "id": "0374",
+      "name": "340",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0374.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0374.png",
+      "positive_fraction": 0.290249
+    },
+    {
+      "id": "0375",
+      "name": "341",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0375.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0375.png",
+      "positive_fraction": 0.574242
+    },
+    {
+      "id": "0376",
+      "name": "342",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0376.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0376.png",
+      "positive_fraction": 0.471046
+    },
+    {
+      "id": "0377",
+      "name": "343",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0377.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0377.png",
+      "positive_fraction": 0.058056
+    },
+    {
+      "id": "0378",
+      "name": "344",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0378.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0378.png",
+      "positive_fraction": 0.37653
+    },
+    {
+      "id": "0379",
+      "name": "345",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0379.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0379.png",
+      "positive_fraction": 0.616421
+    },
+    {
+      "id": "0380",
+      "name": "346",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0380.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0380.png",
+      "positive_fraction": 0.178844
+    },
+    {
+      "id": "0381",
+      "name": "347",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0381.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0381.png",
+      "positive_fraction": 0.5742
+    },
+    {
+      "id": "0382",
+      "name": "348",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0382.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0382.png",
+      "positive_fraction": 0.758282
+    },
+    {
+      "id": "0383",
+      "name": "349",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0383.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0383.png",
+      "positive_fraction": 0.15099
+    },
+    {
+      "id": "0384",
+      "name": "35",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0384.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0384.png",
+      "positive_fraction": 0.239388
+    },
+    {
+      "id": "0385",
+      "name": "350",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0385.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0385.png",
+      "positive_fraction": 0.178318
+    },
+    {
+      "id": "0386",
+      "name": "351",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0386.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0386.png",
+      "positive_fraction": 0.635895
+    },
+    {
+      "id": "0387",
+      "name": "352",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0387.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0387.png",
+      "positive_fraction": 0.758636
+    },
+    {
+      "id": "0388",
+      "name": "353",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0388.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0388.png",
+      "positive_fraction": 0.591198
+    },
+    {
+      "id": "0389",
+      "name": "354",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0389.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0389.png",
+      "positive_fraction": 0.703468
+    },
+    {
+      "id": "0390",
+      "name": "355",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0390.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0390.png",
+      "positive_fraction": 0.549198
+    },
+    {
+      "id": "0391",
+      "name": "356",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0391.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0391.png",
+      "positive_fraction": 0.52235
+    },
+    {
+      "id": "0392",
+      "name": "357",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0392.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0392.png",
+      "positive_fraction": 0.553383
+    },
+    {
+      "id": "0393",
+      "name": "358",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0393.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0393.png",
+      "positive_fraction": 0.410389
+    },
+    {
+      "id": "0394",
+      "name": "359",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0394.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0394.png",
+      "positive_fraction": 0.253162
+    },
+    {
+      "id": "0395",
+      "name": "36",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0395.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0395.png",
+      "positive_fraction": 0.25285
+    },
+    {
+      "id": "0396",
+      "name": "360",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0396.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0396.png",
+      "positive_fraction": 0.708435
+    },
+    {
+      "id": "0397",
+      "name": "361",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0397.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0397.png",
+      "positive_fraction": 0.694473
+    },
+    {
+      "id": "0398",
+      "name": "362",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0398.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0398.png",
+      "positive_fraction": 0.629471
+    },
+    {
+      "id": "0399",
+      "name": "363",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0399.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0399.png",
+      "positive_fraction": 0.5382
+    },
+    {
+      "id": "0400",
+      "name": "364",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0400.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0400.png",
+      "positive_fraction": 0.210453
+    },
+    {
+      "id": "0401",
+      "name": "365",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0401.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0401.png",
+      "positive_fraction": 0.188793
+    },
+    {
+      "id": "0402",
+      "name": "366",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0402.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0402.png",
+      "positive_fraction": 0.668385
+    },
+    {
+      "id": "0403",
+      "name": "367",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0403.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0403.png",
+      "positive_fraction": 0.610611
+    },
+    {
+      "id": "0404",
+      "name": "368",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0404.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0404.png",
+      "positive_fraction": 0.796974
+    },
+    {
+      "id": "0405",
+      "name": "369",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0405.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0405.png",
+      "positive_fraction": 0.845337
+    },
+    {
+      "id": "0406",
+      "name": "37",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0406.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0406.png",
+      "positive_fraction": 0.121674
+    },
+    {
+      "id": "0407",
+      "name": "370",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0407.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0407.png",
+      "positive_fraction": 0.419891
+    },
+    {
+      "id": "0408",
+      "name": "371",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0408.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0408.png",
+      "positive_fraction": 0.587048
+    },
+    {
+      "id": "0409",
+      "name": "372",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0409.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0409.png",
+      "positive_fraction": 0.560398
+    },
+    {
+      "id": "0410",
+      "name": "373",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0410.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0410.png",
+      "positive_fraction": 0.084023
+    },
+    {
+      "id": "0411",
+      "name": "374",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0411.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0411.png",
+      "positive_fraction": 0.300236
+    },
+    {
+      "id": "0412",
+      "name": "375",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0412.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0412.png",
+      "positive_fraction": 0.410866
+    },
+    {
+      "id": "0413",
+      "name": "376",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0413.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0413.png",
+      "positive_fraction": 0.369724
+    },
+    {
+      "id": "0414",
+      "name": "377",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0414.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0414.png",
+      "positive_fraction": 0.636269
+    },
+    {
+      "id": "0415",
+      "name": "378",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0415.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0415.png",
+      "positive_fraction": 0.453747
+    },
+    {
+      "id": "0416",
+      "name": "379",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0416.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0416.png",
+      "positive_fraction": 0.172741
+    },
+    {
+      "id": "0417",
+      "name": "38",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0417.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0417.png",
+      "positive_fraction": 0.020657
+    },
+    {
+      "id": "0418",
+      "name": "380",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0418.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0418.png",
+      "positive_fraction": 0.23558
+    },
+    {
+      "id": "0419",
+      "name": "381",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0419.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0419.png",
+      "positive_fraction": 0.515831
+    },
+    {
+      "id": "0420",
+      "name": "382",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0420.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0420.png",
+      "positive_fraction": 0.175861
+    },
+    {
+      "id": "0421",
+      "name": "383",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0421.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0421.png",
+      "positive_fraction": 0.419922
+    },
+    {
+      "id": "0422",
+      "name": "384",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0422.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0422.png",
+      "positive_fraction": 0.534725
+    },
+    {
+      "id": "0423",
+      "name": "385",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0423.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0423.png",
+      "positive_fraction": 0.390392
+    },
+    {
+      "id": "0424",
+      "name": "386",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0424.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0424.png",
+      "positive_fraction": 0.44397
+    },
+    {
+      "id": "0425",
+      "name": "387",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0425.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0425.png",
+      "positive_fraction": 0.089077
+    },
+    {
+      "id": "0426",
+      "name": "388",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0426.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0426.png",
+      "positive_fraction": 0.436115
+    },
+    {
+      "id": "0427",
+      "name": "389",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0427.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0427.png",
+      "positive_fraction": 0.357204
+    },
+    {
+      "id": "0428",
+      "name": "39",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0428.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0428.png",
+      "positive_fraction": 0.099335
+    },
+    {
+      "id": "0429",
+      "name": "390",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0429.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0429.png",
+      "positive_fraction": 0.395294
+    },
+    {
+      "id": "0430",
+      "name": "391",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0430.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0430.png",
+      "positive_fraction": 0.44455
+    },
+    {
+      "id": "0431",
+      "name": "392",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0431.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0431.png",
+      "positive_fraction": 0.368145
+    },
+    {
+      "id": "0432",
+      "name": "393",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0432.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0432.png",
+      "positive_fraction": 0.217087
+    },
+    {
+      "id": "0433",
+      "name": "394",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0433.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0433.png",
+      "positive_fraction": 0.085922
+    },
+    {
+      "id": "0434",
+      "name": "395",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0434.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0434.png",
+      "positive_fraction": 0.08345
+    },
+    {
+      "id": "0435",
+      "name": "4",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0435.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0435.png",
+      "positive_fraction": 0.302948
+    },
+    {
+      "id": "0436",
+      "name": "40",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0436.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0436.png",
+      "positive_fraction": 0.028706
+    },
+    {
+      "id": "0437",
+      "name": "41",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0437.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0437.png",
+      "positive_fraction": 0.022049
+    },
+    {
+      "id": "0438",
+      "name": "42",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0438.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0438.png",
+      "positive_fraction": 0.007412
+    },
+    {
+      "id": "0439",
+      "name": "43",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0439.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0439.png",
+      "positive_fraction": 0.007751
+    },
+    {
+      "id": "0440",
+      "name": "44",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0440.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0440.png",
+      "positive_fraction": 0.012943
+    },
+    {
+      "id": "0441",
+      "name": "45",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0441.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0441.png",
+      "positive_fraction": 0.019455
+    },
+    {
+      "id": "0442",
+      "name": "46",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0442.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0442.png",
+      "positive_fraction": 0.009693
+    },
+    {
+      "id": "0443",
+      "name": "47",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0443.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0443.png",
+      "positive_fraction": 0.016426
+    },
+    {
+      "id": "0444",
+      "name": "48",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0444.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0444.png",
+      "positive_fraction": 0.022434
+    },
+    {
+      "id": "0445",
+      "name": "49",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0445.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0445.png",
+      "positive_fraction": 0.002426
+    },
+    {
+      "id": "0446",
+      "name": "5",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0446.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0446.png",
+      "positive_fraction": 0.148518
+    },
+    {
+      "id": "0447",
+      "name": "50",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0447.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0447.png",
+      "positive_fraction": 0.006996
+    },
+    {
+      "id": "0448",
+      "name": "51",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0448.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0448.png",
+      "positive_fraction": 0.07687
+    },
+    {
+      "id": "0449",
+      "name": "52",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0449.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0449.png",
+      "positive_fraction": 0.042858
+    },
+    {
+      "id": "0450",
+      "name": "53",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0450.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0450.png",
+      "positive_fraction": 0.008556
+    },
+    {
+      "id": "0451",
+      "name": "54",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0451.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0451.png",
+      "positive_fraction": 0.105843
+    },
+    {
+      "id": "0452",
+      "name": "55",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0452.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0452.png",
+      "positive_fraction": 0.042835
+    },
+    {
+      "id": "0453",
+      "name": "56",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0453.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0453.png",
+      "positive_fraction": 0.237606
+    },
+    {
+      "id": "0454",
+      "name": "57",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0454.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0454.png",
+      "positive_fraction": 0.039421
+    },
+    {
+      "id": "0455",
+      "name": "58",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0455.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0455.png",
+      "positive_fraction": 0.001579
+    },
+    {
+      "id": "0456",
+      "name": "59",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0456.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0456.png",
+      "positive_fraction": 0.036568
+    },
+    {
+      "id": "0457",
+      "name": "6",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0457.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0457.png",
+      "positive_fraction": 0.027363
+    },
+    {
+      "id": "0458",
+      "name": "60",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0458.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0458.png",
+      "positive_fraction": 0.003468
+    },
+    {
+      "id": "0459",
+      "name": "61",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0459.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0459.png",
+      "positive_fraction": 0.016872
+    },
+    {
+      "id": "0460",
+      "name": "62",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0460.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0460.png",
+      "positive_fraction": 0.318203
+    },
+    {
+      "id": "0461",
+      "name": "63",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0461.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0461.png",
+      "positive_fraction": 0.0742
+    },
+    {
+      "id": "0462",
+      "name": "64",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0462.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0462.png",
+      "positive_fraction": 0.193195
+    },
+    {
+      "id": "0463",
+      "name": "65",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0463.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0463.png",
+      "positive_fraction": 0.309452
+    },
+    {
+      "id": "0464",
+      "name": "66",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0464.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0464.png",
+      "positive_fraction": 0.020653
+    },
+    {
+      "id": "0465",
+      "name": "67",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0465.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0465.png",
+      "positive_fraction": 0.098919
+    },
+    {
+      "id": "0466",
+      "name": "68",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0466.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0466.png",
+      "positive_fraction": 0.208652
+    },
+    {
+      "id": "0467",
+      "name": "69",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0467.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0467.png",
+      "positive_fraction": 0.264755
+    },
+    {
+      "id": "0468",
+      "name": "7",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0468.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0468.png",
+      "positive_fraction": 0.508835
+    },
+    {
+      "id": "0469",
+      "name": "70",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0469.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0469.png",
+      "positive_fraction": 0.224594
+    },
+    {
+      "id": "0470",
+      "name": "71",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0470.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0470.png",
+      "positive_fraction": 0.168907
+    },
+    {
+      "id": "0471",
+      "name": "72",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0471.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0471.png",
+      "positive_fraction": 0.244144
+    },
+    {
+      "id": "0472",
+      "name": "73",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0472.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0472.png",
+      "positive_fraction": 0.244381
+    },
+    {
+      "id": "0473",
+      "name": "74",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0473.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0473.png",
+      "positive_fraction": 0.242954
+    },
+    {
+      "id": "0474",
+      "name": "75",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0474.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0474.png",
+      "positive_fraction": 0.132595
+    },
+    {
+      "id": "0475",
+      "name": "76",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0475.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0475.png",
+      "positive_fraction": 0.233864
+    },
+    {
+      "id": "0476",
+      "name": "77",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0476.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0476.png",
+      "positive_fraction": 0.019142
+    },
+    {
+      "id": "0477",
+      "name": "78",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0477.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0477.png",
+      "positive_fraction": 0.290325
+    },
+    {
+      "id": "0478",
+      "name": "79",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0478.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0478.png",
+      "positive_fraction": 0.091259
+    },
+    {
+      "id": "0479",
+      "name": "8",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0479.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0479.png",
+      "positive_fraction": 0.400253
+    },
+    {
+      "id": "0480",
+      "name": "80",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0480.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0480.png",
+      "positive_fraction": 0.321465
+    },
+    {
+      "id": "0481",
+      "name": "81",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0481.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0481.png",
+      "positive_fraction": 0.385098
+    },
+    {
+      "id": "0482",
+      "name": "82",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0482.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0482.png",
+      "positive_fraction": 0.134079
+    },
+    {
+      "id": "0483",
+      "name": "83",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0483.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0483.png",
+      "positive_fraction": 0.210556
+    },
+    {
+      "id": "0484",
+      "name": "84",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0484.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0484.png",
+      "positive_fraction": 0.261971
+    },
+    {
+      "id": "0485",
+      "name": "85",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0485.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0485.png",
+      "positive_fraction": 0.436016
+    },
+    {
+      "id": "0486",
+      "name": "86",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0486.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0486.png",
+      "positive_fraction": 0.365673
+    },
+    {
+      "id": "0487",
+      "name": "87",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0487.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0487.png",
+      "positive_fraction": 0.440693
+    },
+    {
+      "id": "0488",
+      "name": "88",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0488.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0488.png",
+      "positive_fraction": 0.414001
+    },
+    {
+      "id": "0489",
+      "name": "89",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0489.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0489.png",
+      "positive_fraction": 0.19722
+    },
+    {
+      "id": "0490",
+      "name": "9",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0490.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0490.png",
+      "positive_fraction": 0.174297
+    },
+    {
+      "id": "0491",
+      "name": "90",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0491.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0491.png",
+      "positive_fraction": 0.276405
+    },
+    {
+      "id": "0492",
+      "name": "91",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0492.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0492.png",
+      "positive_fraction": 0.291203
+    },
+    {
+      "id": "0493",
+      "name": "92",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0493.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0493.png",
+      "positive_fraction": 0.146282
+    },
+    {
+      "id": "0494",
+      "name": "93",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0494.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0494.png",
+      "positive_fraction": 0.005676
+    },
+    {
+      "id": "0495",
+      "name": "94",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0495.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0495.png",
+      "positive_fraction": 0.056023
+    },
+    {
+      "id": "0496",
+      "name": "95",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0496.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0496.png",
+      "positive_fraction": 0.041328
+    },
+    {
+      "id": "0497",
+      "name": "96",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0497.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0497.png",
+      "positive_fraction": 0.120884
+    },
+    {
+      "id": "0498",
+      "name": "97",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0498.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0498.png",
+      "positive_fraction": 0.175194
+    },
+    {
+      "id": "0499",
+      "name": "98",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0499.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0499.png",
+      "positive_fraction": 0.011925
+    },
+    {
+      "id": "0500",
+      "name": "99",
+      "source": "vt",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0500.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0500.png",
+      "positive_fraction": 0.161217
+    },
+    {
+      "id": "0501",
+      "name": "0",
+      "source": "vt",
+      "split": "test",
+      "image": "dataset\\processed\\kt3\\images\\0501.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0501.png",
+      "positive_fraction": 0.33411
+    },
+    {
+      "id": "0502",
+      "name": "1",
+      "source": "vt",
+      "split": "test",
+      "image": "dataset\\processed\\kt3\\images\\0502.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0502.png",
+      "positive_fraction": 0.060032
+    },
+    {
+      "id": "0503",
+      "name": "10",
+      "source": "vt",
+      "split": "test",
+      "image": "dataset\\processed\\kt3\\images\\0503.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0503.png",
+      "positive_fraction": 0.024097
+    },
+    {
+      "id": "0504",
+      "name": "11",
+      "source": "vt",
+      "split": "test",
+      "image": "dataset\\processed\\kt3\\images\\0504.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0504.png",
+      "positive_fraction": 0.013588
+    },
+    {
+      "id": "0505",
+      "name": "12",
+      "source": "vt",
+      "split": "test",
+      "image": "dataset\\processed\\kt3\\images\\0505.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0505.png",
+      "positive_fraction": 0.296631
+    },
+    {
+      "id": "0506",
+      "name": "13",
+      "source": "vt",
+      "split": "test",
+      "image": "dataset\\processed\\kt3\\images\\0506.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0506.png",
+      "positive_fraction": 0.238567
+    },
+    {
+      "id": "0507",
+      "name": "14",
+      "source": "vt",
+      "split": "test",
+      "image": "dataset\\processed\\kt3\\images\\0507.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0507.png",
+      "positive_fraction": 0.162838
+    },
+    {
+      "id": "0508",
+      "name": "15",
+      "source": "vt",
+      "split": "test",
+      "image": "dataset\\processed\\kt3\\images\\0508.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0508.png",
+      "positive_fraction": 0.05043
+    },
+    {
+      "id": "0509",
+      "name": "16",
+      "source": "vt",
+      "split": "test",
+      "image": "dataset\\processed\\kt3\\images\\0509.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0509.png",
+      "positive_fraction": 0.021069
+    },
+    {
+      "id": "0510",
+      "name": "17",
+      "source": "vt",
+      "split": "test",
+      "image": "dataset\\processed\\kt3\\images\\0510.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0510.png",
+      "positive_fraction": 0.352898
+    },
+    {
+      "id": "0511",
+      "name": "18",
+      "source": "vt",
+      "split": "test",
+      "image": "dataset\\processed\\kt3\\images\\0511.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0511.png",
+      "positive_fraction": 0.13205
+    },
+    {
+      "id": "0512",
+      "name": "19",
+      "source": "vt",
+      "split": "test",
+      "image": "dataset\\processed\\kt3\\images\\0512.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0512.png",
+      "positive_fraction": 0.0112
+    },
+    {
+      "id": "0513",
+      "name": "2",
+      "source": "vt",
+      "split": "test",
+      "image": "dataset\\processed\\kt3\\images\\0513.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0513.png",
+      "positive_fraction": 0.308857
+    },
+    {
+      "id": "0514",
+      "name": "20",
+      "source": "vt",
+      "split": "test",
+      "image": "dataset\\processed\\kt3\\images\\0514.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0514.png",
+      "positive_fraction": 0.019642
+    },
+    {
+      "id": "0515",
+      "name": "21",
+      "source": "vt",
+      "split": "test",
+      "image": "dataset\\processed\\kt3\\images\\0515.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0515.png",
+      "positive_fraction": 0.001232
+    },
+    {
+      "id": "0516",
+      "name": "22",
+      "source": "vt",
+      "split": "test",
+      "image": "dataset\\processed\\kt3\\images\\0516.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0516.png",
+      "positive_fraction": 0.022999
+    },
+    {
+      "id": "0517",
+      "name": "23",
+      "source": "vt",
+      "split": "test",
+      "image": "dataset\\processed\\kt3\\images\\0517.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0517.png",
+      "positive_fraction": 0.454941
+    },
+    {
+      "id": "0518",
+      "name": "24",
+      "source": "vt",
+      "split": "test",
+      "image": "dataset\\processed\\kt3\\images\\0518.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0518.png",
+      "positive_fraction": 0.37767
+    },
+    {
+      "id": "0519",
+      "name": "25",
+      "source": "vt",
+      "split": "test",
+      "image": "dataset\\processed\\kt3\\images\\0519.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0519.png",
+      "positive_fraction": 0.228184
+    },
+    {
+      "id": "0520",
+      "name": "26",
+      "source": "vt",
+      "split": "test",
+      "image": "dataset\\processed\\kt3\\images\\0520.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0520.png",
+      "positive_fraction": 0.109009
+    },
+    {
+      "id": "0521",
+      "name": "27",
+      "source": "vt",
+      "split": "test",
+      "image": "dataset\\processed\\kt3\\images\\0521.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0521.png",
+      "positive_fraction": 0.035011
+    },
+    {
+      "id": "0522",
+      "name": "28",
+      "source": "vt",
+      "split": "test",
+      "image": "dataset\\processed\\kt3\\images\\0522.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0522.png",
+      "positive_fraction": 0.690647
+    },
+    {
+      "id": "0523",
+      "name": "29",
+      "source": "vt",
+      "split": "test",
+      "image": "dataset\\processed\\kt3\\images\\0523.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0523.png",
+      "positive_fraction": 0.430534
+    },
+    {
+      "id": "0524",
+      "name": "3",
+      "source": "vt",
+      "split": "test",
+      "image": "dataset\\processed\\kt3\\images\\0524.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0524.png",
+      "positive_fraction": 0.227177
+    },
+    {
+      "id": "0525",
+      "name": "30",
+      "source": "vt",
+      "split": "test",
+      "image": "dataset\\processed\\kt3\\images\\0525.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0525.png",
+      "positive_fraction": 0.107906
+    },
+    {
+      "id": "0526",
+      "name": "31",
+      "source": "vt",
+      "split": "test",
+      "image": "dataset\\processed\\kt3\\images\\0526.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0526.png",
+      "positive_fraction": 0.109253
+    },
+    {
+      "id": "0527",
+      "name": "32",
+      "source": "vt",
+      "split": "test",
+      "image": "dataset\\processed\\kt3\\images\\0527.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0527.png",
+      "positive_fraction": 0.222157
+    },
+    {
+      "id": "0528",
+      "name": "33",
+      "source": "vt",
+      "split": "test",
+      "image": "dataset\\processed\\kt3\\images\\0528.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0528.png",
+      "positive_fraction": 0.123718
+    },
+    {
+      "id": "0529",
+      "name": "34",
+      "source": "vt",
+      "split": "test",
+      "image": "dataset\\processed\\kt3\\images\\0529.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0529.png",
+      "positive_fraction": 0.184563
+    },
+    {
+      "id": "0530",
+      "name": "35",
+      "source": "vt",
+      "split": "test",
+      "image": "dataset\\processed\\kt3\\images\\0530.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0530.png",
+      "positive_fraction": 0.123745
+    },
+    {
+      "id": "0531",
+      "name": "36",
+      "source": "vt",
+      "split": "test",
+      "image": "dataset\\processed\\kt3\\images\\0531.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0531.png",
+      "positive_fraction": 0.166344
+    },
+    {
+      "id": "0532",
+      "name": "37",
+      "source": "vt",
+      "split": "test",
+      "image": "dataset\\processed\\kt3\\images\\0532.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0532.png",
+      "positive_fraction": 0.599133
+    },
+    {
+      "id": "0533",
+      "name": "38",
+      "source": "vt",
+      "split": "test",
+      "image": "dataset\\processed\\kt3\\images\\0533.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0533.png",
+      "positive_fraction": 0.083389
+    },
+    {
+      "id": "0534",
+      "name": "39",
+      "source": "vt",
+      "split": "test",
+      "image": "dataset\\processed\\kt3\\images\\0534.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0534.png",
+      "positive_fraction": 0.153946
+    },
+    {
+      "id": "0535",
+      "name": "4",
+      "source": "vt",
+      "split": "test",
+      "image": "dataset\\processed\\kt3\\images\\0535.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0535.png",
+      "positive_fraction": 0.044464
+    },
+    {
+      "id": "0536",
+      "name": "40",
+      "source": "vt",
+      "split": "test",
+      "image": "dataset\\processed\\kt3\\images\\0536.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0536.png",
+      "positive_fraction": 0.100826
+    },
+    {
+      "id": "0537",
+      "name": "41",
+      "source": "vt",
+      "split": "test",
+      "image": "dataset\\processed\\kt3\\images\\0537.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0537.png",
+      "positive_fraction": 0.358418
+    },
+    {
+      "id": "0538",
+      "name": "42",
+      "source": "vt",
+      "split": "test",
+      "image": "dataset\\processed\\kt3\\images\\0538.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0538.png",
+      "positive_fraction": 0.496269
+    },
+    {
+      "id": "0539",
+      "name": "43",
+      "source": "vt",
+      "split": "test",
+      "image": "dataset\\processed\\kt3\\images\\0539.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0539.png",
+      "positive_fraction": 0.372204
+    },
+    {
+      "id": "0540",
+      "name": "5",
+      "source": "vt",
+      "split": "test",
+      "image": "dataset\\processed\\kt3\\images\\0540.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0540.png",
+      "positive_fraction": 0.140469
+    },
+    {
+      "id": "0541",
+      "name": "6",
+      "source": "vt",
+      "split": "test",
+      "image": "dataset\\processed\\kt3\\images\\0541.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0541.png",
+      "positive_fraction": 0.302891
+    },
+    {
+      "id": "0542",
+      "name": "7",
+      "source": "vt",
+      "split": "test",
+      "image": "dataset\\processed\\kt3\\images\\0542.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0542.png",
+      "positive_fraction": 0.36356
+    },
+    {
+      "id": "0543",
+      "name": "8",
+      "source": "vt",
+      "split": "test",
+      "image": "dataset\\processed\\kt3\\images\\0543.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0543.png",
+      "positive_fraction": 0.209209
+    },
+    {
+      "id": "0544",
+      "name": "9",
+      "source": "vt",
+      "split": "test",
+      "image": "dataset\\processed\\kt3\\images\\0544.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0544.png",
+      "positive_fraction": 0.377678
+    },
+    {
+      "id": "0545",
+      "name": "image_0000",
+      "source": "pipelines",
+      "split": "val",
+      "image": "dataset\\processed\\kt3\\images\\0545.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0545.png",
+      "positive_fraction": 0.245518
+    },
+    {
+      "id": "0546",
+      "name": "image_0003",
+      "source": "pipelines",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0546.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0546.png",
+      "positive_fraction": 0.194786
+    },
+    {
+      "id": "0547",
+      "name": "image_0004",
+      "source": "pipelines",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0547.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0547.png",
+      "positive_fraction": 0.150085
+    },
+    {
+      "id": "0548",
+      "name": "image_0005",
+      "source": "pipelines",
+      "split": "test",
+      "image": "dataset\\processed\\kt3\\images\\0548.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0548.png",
+      "positive_fraction": 0.126484
+    },
+    {
+      "id": "0549",
+      "name": "image_0006",
+      "source": "pipelines",
+      "split": "test",
+      "image": "dataset\\processed\\kt3\\images\\0549.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0549.png",
+      "positive_fraction": 0.116436
+    },
+    {
+      "id": "0550",
+      "name": "image_0007",
+      "source": "pipelines",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0550.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0550.png",
+      "positive_fraction": 0.1133
+    },
+    {
+      "id": "0551",
+      "name": "image_0008",
+      "source": "pipelines",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0551.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0551.png",
+      "positive_fraction": 0.123188
+    },
+    {
+      "id": "0552",
+      "name": "image_0009",
+      "source": "pipelines",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0552.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0552.png",
+      "positive_fraction": 0.115223
+    },
+    {
+      "id": "0553",
+      "name": "image_0010",
+      "source": "pipelines",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0553.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0553.png",
+      "positive_fraction": 0.10265
+    },
+    {
+      "id": "0554",
+      "name": "image_0011",
+      "source": "pipelines",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0554.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0554.png",
+      "positive_fraction": 0.110828
+    },
+    {
+      "id": "0555",
+      "name": "image_0012",
+      "source": "pipelines",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0555.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0555.png",
+      "positive_fraction": 0.091072
+    },
+    {
+      "id": "0556",
+      "name": "image_0013",
+      "source": "pipelines",
+      "split": "test",
+      "image": "dataset\\processed\\kt3\\images\\0556.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0556.png",
+      "positive_fraction": 0.076447
+    },
+    {
+      "id": "0557",
+      "name": "image_0014",
+      "source": "pipelines",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0557.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0557.png",
+      "positive_fraction": 0.112362
+    },
+    {
+      "id": "0558",
+      "name": "image_0015",
+      "source": "pipelines",
+      "split": "test",
+      "image": "dataset\\processed\\kt3\\images\\0558.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0558.png",
+      "positive_fraction": 0.10537
+    },
+    {
+      "id": "0559",
+      "name": "image_0016",
+      "source": "pipelines",
+      "split": "test",
+      "image": "dataset\\processed\\kt3\\images\\0559.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0559.png",
+      "positive_fraction": 0.123806
+    },
+    {
+      "id": "0560",
+      "name": "image_0017",
+      "source": "pipelines",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0560.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0560.png",
+      "positive_fraction": 0.145847
+    },
+    {
+      "id": "0561",
+      "name": "image_0018",
+      "source": "pipelines",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0561.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0561.png",
+      "positive_fraction": 0.10841
+    },
+    {
+      "id": "0562",
+      "name": "image_0023",
+      "source": "pipelines",
+      "split": "test",
+      "image": "dataset\\processed\\kt3\\images\\0562.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0562.png",
+      "positive_fraction": 0.134293
+    },
+    {
+      "id": "0563",
+      "name": "image_0024",
+      "source": "pipelines",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0563.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0563.png",
+      "positive_fraction": 0.132008
+    },
+    {
+      "id": "0564",
+      "name": "image_0025",
+      "source": "pipelines",
+      "split": "val",
+      "image": "dataset\\processed\\kt3\\images\\0564.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0564.png",
+      "positive_fraction": 0.112213
+    },
+    {
+      "id": "0565",
+      "name": "image_0026",
+      "source": "pipelines",
+      "split": "val",
+      "image": "dataset\\processed\\kt3\\images\\0565.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0565.png",
+      "positive_fraction": 0.093456
+    },
+    {
+      "id": "0566",
+      "name": "image_0027",
+      "source": "pipelines",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0566.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0566.png",
+      "positive_fraction": 0.056934
+    },
+    {
+      "id": "0567",
+      "name": "image_0028",
+      "source": "pipelines",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0567.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0567.png",
+      "positive_fraction": 0.078342
+    },
+    {
+      "id": "0568",
+      "name": "image_0029",
+      "source": "pipelines",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0568.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0568.png",
+      "positive_fraction": 0.085155
+    },
+    {
+      "id": "0569",
+      "name": "image_0030",
+      "source": "pipelines",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0569.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0569.png",
+      "positive_fraction": 0.083946
+    },
+    {
+      "id": "0570",
+      "name": "image_0031",
+      "source": "pipelines",
+      "split": "val",
+      "image": "dataset\\processed\\kt3\\images\\0570.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0570.png",
+      "positive_fraction": 0.095951
+    },
+    {
+      "id": "0571",
+      "name": "image_0032",
+      "source": "pipelines",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0571.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0571.png",
+      "positive_fraction": 0.111736
+    },
+    {
+      "id": "0572",
+      "name": "image_0033",
+      "source": "pipelines",
+      "split": "test",
+      "image": "dataset\\processed\\kt3\\images\\0572.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0572.png",
+      "positive_fraction": 0.117283
+    },
+    {
+      "id": "0573",
+      "name": "image_0041",
+      "source": "pipelines",
+      "split": "test",
+      "image": "dataset\\processed\\kt3\\images\\0573.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0573.png",
+      "positive_fraction": 0.107346
+    },
+    {
+      "id": "0574",
+      "name": "image_0047",
+      "source": "pipelines",
+      "split": "val",
+      "image": "dataset\\processed\\kt3\\images\\0574.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0574.png",
+      "positive_fraction": 0.125244
+    },
+    {
+      "id": "0575",
+      "name": "image_0048",
+      "source": "pipelines",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0575.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0575.png",
+      "positive_fraction": 0.105492
+    },
+    {
+      "id": "0576",
+      "name": "image_0049",
+      "source": "pipelines",
+      "split": "test",
+      "image": "dataset\\processed\\kt3\\images\\0576.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0576.png",
+      "positive_fraction": 0.126316
+    },
+    {
+      "id": "0577",
+      "name": "image_0050",
+      "source": "pipelines",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0577.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0577.png",
+      "positive_fraction": 0.131992
+    },
+    {
+      "id": "0578",
+      "name": "image_0051",
+      "source": "pipelines",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0578.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0578.png",
+      "positive_fraction": 0.157227
+    },
+    {
+      "id": "0579",
+      "name": "image_0052",
+      "source": "pipelines",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0579.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0579.png",
+      "positive_fraction": 0.192406
+    },
+    {
+      "id": "0580",
+      "name": "image_0053",
+      "source": "pipelines",
+      "split": "test",
+      "image": "dataset\\processed\\kt3\\images\\0580.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0580.png",
+      "positive_fraction": 0.167824
+    },
+    {
+      "id": "0581",
+      "name": "image_0054",
+      "source": "pipelines",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0581.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0581.png",
+      "positive_fraction": 0.201508
+    },
+    {
+      "id": "0582",
+      "name": "image_0055",
+      "source": "pipelines",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0582.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0582.png",
+      "positive_fraction": 0.189301
+    },
+    {
+      "id": "0583",
+      "name": "image_0056",
+      "source": "pipelines",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0583.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0583.png",
+      "positive_fraction": 0.180542
+    },
+    {
+      "id": "0584",
+      "name": "image_0057",
+      "source": "pipelines",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0584.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0584.png",
+      "positive_fraction": 0.168468
+    },
+    {
+      "id": "0585",
+      "name": "image_0058",
+      "source": "pipelines",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0585.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0585.png",
+      "positive_fraction": 0.137901
+    },
+    {
+      "id": "0586",
+      "name": "image_0059",
+      "source": "pipelines",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0586.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0586.png",
+      "positive_fraction": 0.094349
+    },
+    {
+      "id": "0587",
+      "name": "image_0060",
+      "source": "pipelines",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0587.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0587.png",
+      "positive_fraction": 0.099602
+    },
+    {
+      "id": "0588",
+      "name": "image_0061",
+      "source": "pipelines",
+      "split": "val",
+      "image": "dataset\\processed\\kt3\\images\\0588.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0588.png",
+      "positive_fraction": 0.097401
+    },
+    {
+      "id": "0589",
+      "name": "image_0062",
+      "source": "pipelines",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0589.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0589.png",
+      "positive_fraction": 0.105511
+    },
+    {
+      "id": "0590",
+      "name": "image_0063",
+      "source": "pipelines",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0590.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0590.png",
+      "positive_fraction": 0.097992
+    },
+    {
+      "id": "0591",
+      "name": "image_0064",
+      "source": "pipelines",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0591.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0591.png",
+      "positive_fraction": 0.07217
+    },
+    {
+      "id": "0592",
+      "name": "image_0065",
+      "source": "pipelines",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0592.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0592.png",
+      "positive_fraction": 0.08963
+    },
+    {
+      "id": "0593",
+      "name": "image_0066",
+      "source": "pipelines",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0593.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0593.png",
+      "positive_fraction": 0.105816
+    },
+    {
+      "id": "0594",
+      "name": "image_0067",
+      "source": "pipelines",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0594.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0594.png",
+      "positive_fraction": 0.098743
+    },
+    {
+      "id": "0595",
+      "name": "image_0068",
+      "source": "pipelines",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0595.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0595.png",
+      "positive_fraction": 0.097458
+    },
+    {
+      "id": "0596",
+      "name": "image_0071",
+      "source": "pipelines",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0596.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0596.png",
+      "positive_fraction": 0.105743
+    },
+    {
+      "id": "0597",
+      "name": "image_0072",
+      "source": "pipelines",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0597.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0597.png",
+      "positive_fraction": 0.102455
+    },
+    {
+      "id": "0598",
+      "name": "image_0073",
+      "source": "pipelines",
+      "split": "val",
+      "image": "dataset\\processed\\kt3\\images\\0598.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0598.png",
+      "positive_fraction": 0.07568
+    },
+    {
+      "id": "0599",
+      "name": "image_0074",
+      "source": "pipelines",
+      "split": "test",
+      "image": "dataset\\processed\\kt3\\images\\0599.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0599.png",
+      "positive_fraction": 0.088722
+    },
+    {
+      "id": "0600",
+      "name": "image_0075",
+      "source": "pipelines",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0600.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0600.png",
+      "positive_fraction": 0.078995
+    },
+    {
+      "id": "0601",
+      "name": "image_0076",
+      "source": "pipelines",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0601.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0601.png",
+      "positive_fraction": 0.082218
+    },
+    {
+      "id": "0602",
+      "name": "image_0077",
+      "source": "pipelines",
+      "split": "val",
+      "image": "dataset\\processed\\kt3\\images\\0602.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0602.png",
+      "positive_fraction": 0.096409
+    },
+    {
+      "id": "0603",
+      "name": "image_0085",
+      "source": "pipelines",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0603.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0603.png",
+      "positive_fraction": 0.087097
+    },
+    {
+      "id": "0604",
+      "name": "image_0086",
+      "source": "pipelines",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0604.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0604.png",
+      "positive_fraction": 0.085629
+    },
+    {
+      "id": "0605",
+      "name": "image_0087",
+      "source": "pipelines",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0605.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0605.png",
+      "positive_fraction": 0.119656
+    },
+    {
+      "id": "0606",
+      "name": "image_0088",
+      "source": "pipelines",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0606.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0606.png",
+      "positive_fraction": 0.161171
+    },
+    {
+      "id": "0607",
+      "name": "image_0089",
+      "source": "pipelines",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0607.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0607.png",
+      "positive_fraction": 0.19278
+    },
+    {
+      "id": "0608",
+      "name": "image_0090",
+      "source": "pipelines",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0608.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0608.png",
+      "positive_fraction": 0.193893
+    },
+    {
+      "id": "0609",
+      "name": "image_0091",
+      "source": "pipelines",
+      "split": "val",
+      "image": "dataset\\processed\\kt3\\images\\0609.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0609.png",
+      "positive_fraction": 0.0
+    },
+    {
+      "id": "0610",
+      "name": "image_0092",
+      "source": "pipelines",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0610.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0610.png",
+      "positive_fraction": 0.198486
+    },
+    {
+      "id": "0611",
+      "name": "image_0093",
+      "source": "pipelines",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0611.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0611.png",
+      "positive_fraction": 0.153362
+    },
+    {
+      "id": "0612",
+      "name": "image_0094",
+      "source": "pipelines",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0612.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0612.png",
+      "positive_fraction": 0.135239
+    },
+    {
+      "id": "0613",
+      "name": "image_0095",
+      "source": "pipelines",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0613.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0613.png",
+      "positive_fraction": 0.113869
+    },
+    {
+      "id": "0614",
+      "name": "image_0096",
+      "source": "pipelines",
+      "split": "test",
+      "image": "dataset\\processed\\kt3\\images\\0614.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0614.png",
+      "positive_fraction": 0.101566
+    },
+    {
+      "id": "0615",
+      "name": "image_0097",
+      "source": "pipelines",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0615.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0615.png",
+      "positive_fraction": 0.083942
+    },
+    {
+      "id": "0616",
+      "name": "image_0098",
+      "source": "pipelines",
+      "split": "val",
+      "image": "dataset\\processed\\kt3\\images\\0616.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0616.png",
+      "positive_fraction": 0.100895
+    },
+    {
+      "id": "0617",
+      "name": "image_0099",
+      "source": "pipelines",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0617.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0617.png",
+      "positive_fraction": 0.0676
+    },
+    {
+      "id": "0618",
+      "name": "image_0100",
+      "source": "pipelines",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0618.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0618.png",
+      "positive_fraction": 0.071712
+    },
+    {
+      "id": "0619",
+      "name": "image_0101",
+      "source": "pipelines",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0619.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0619.png",
+      "positive_fraction": 0.135056
+    },
+    {
+      "id": "0620",
+      "name": "image_0102",
+      "source": "pipelines",
+      "split": "test",
+      "image": "dataset\\processed\\kt3\\images\\0620.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0620.png",
+      "positive_fraction": 0.142918
+    },
+    {
+      "id": "0621",
+      "name": "image_0103",
+      "source": "pipelines",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0621.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0621.png",
+      "positive_fraction": 0.210194
+    },
+    {
+      "id": "0622",
+      "name": "image_0106",
+      "source": "pipelines",
+      "split": "val",
+      "image": "dataset\\processed\\kt3\\images\\0622.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0622.png",
+      "positive_fraction": 0.170067
+    },
+    {
+      "id": "0623",
+      "name": "image_0107",
+      "source": "pipelines",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0623.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0623.png",
+      "positive_fraction": 0.15073
+    },
+    {
+      "id": "0624",
+      "name": "image_0108",
+      "source": "pipelines",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0624.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0624.png",
+      "positive_fraction": 0.144005
+    },
+    {
+      "id": "0625",
+      "name": "image_0109",
+      "source": "pipelines",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0625.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0625.png",
+      "positive_fraction": 0.135151
+    },
+    {
+      "id": "0626",
+      "name": "image_0110",
+      "source": "pipelines",
+      "split": "test",
+      "image": "dataset\\processed\\kt3\\images\\0626.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0626.png",
+      "positive_fraction": 0.123196
+    },
+    {
+      "id": "0627",
+      "name": "image_0111",
+      "source": "pipelines",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0627.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0627.png",
+      "positive_fraction": 0.097385
+    },
+    {
+      "id": "0628",
+      "name": "image_0112",
+      "source": "pipelines",
+      "split": "val",
+      "image": "dataset\\processed\\kt3\\images\\0628.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0628.png",
+      "positive_fraction": 0.083199
+    },
+    {
+      "id": "0629",
+      "name": "image_0113",
+      "source": "pipelines",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0629.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0629.png",
+      "positive_fraction": 0.085884
+    },
+    {
+      "id": "0630",
+      "name": "image_0114",
+      "source": "pipelines",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0630.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0630.png",
+      "positive_fraction": 0.062431
+    },
+    {
+      "id": "0631",
+      "name": "image_0115",
+      "source": "pipelines",
+      "split": "test",
+      "image": "dataset\\processed\\kt3\\images\\0631.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0631.png",
+      "positive_fraction": 0.067726
+    },
+    {
+      "id": "0632",
+      "name": "image_0116",
+      "source": "pipelines",
+      "split": "val",
+      "image": "dataset\\processed\\kt3\\images\\0632.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0632.png",
+      "positive_fraction": 0.081383
+    },
+    {
+      "id": "0633",
+      "name": "image_0117",
+      "source": "pipelines",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0633.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0633.png",
+      "positive_fraction": 0.083439
+    },
+    {
+      "id": "0634",
+      "name": "image_0118",
+      "source": "pipelines",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0634.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0634.png",
+      "positive_fraction": 0.10347
+    },
+    {
+      "id": "0635",
+      "name": "image_0119",
+      "source": "pipelines",
+      "split": "val",
+      "image": "dataset\\processed\\kt3\\images\\0635.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0635.png",
+      "positive_fraction": 0.063244
+    },
+    {
+      "id": "0636",
+      "name": "image_0120",
+      "source": "pipelines",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0636.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0636.png",
+      "positive_fraction": 0.070644
+    },
+    {
+      "id": "0637",
+      "name": "image_0121",
+      "source": "pipelines",
+      "split": "val",
+      "image": "dataset\\processed\\kt3\\images\\0637.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0637.png",
+      "positive_fraction": 0.078922
+    },
+    {
+      "id": "0638",
+      "name": "image_0122",
+      "source": "pipelines",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0638.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0638.png",
+      "positive_fraction": 0.055851
+    },
+    {
+      "id": "0639",
+      "name": "image_0126",
+      "source": "pipelines",
+      "split": "test",
+      "image": "dataset\\processed\\kt3\\images\\0639.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0639.png",
+      "positive_fraction": 0.066208
+    },
+    {
+      "id": "0640",
+      "name": "image_0127",
+      "source": "pipelines",
+      "split": "val",
+      "image": "dataset\\processed\\kt3\\images\\0640.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0640.png",
+      "positive_fraction": 0.064789
+    },
+    {
+      "id": "0641",
+      "name": "image_0128",
+      "source": "pipelines",
+      "split": "test",
+      "image": "dataset\\processed\\kt3\\images\\0641.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0641.png",
+      "positive_fraction": 0.056099
+    },
+    {
+      "id": "0642",
+      "name": "image_0129",
+      "source": "pipelines",
+      "split": "val",
+      "image": "dataset\\processed\\kt3\\images\\0642.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0642.png",
+      "positive_fraction": 0.052715
+    },
+    {
+      "id": "0643",
+      "name": "image_0130",
+      "source": "pipelines",
+      "split": "val",
+      "image": "dataset\\processed\\kt3\\images\\0643.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0643.png",
+      "positive_fraction": 0.033993
+    },
+    {
+      "id": "0644",
+      "name": "image_0131",
+      "source": "pipelines",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0644.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0644.png",
+      "positive_fraction": 0.036732
+    },
+    {
+      "id": "0645",
+      "name": "image_0132",
+      "source": "pipelines",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0645.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0645.png",
+      "positive_fraction": 0.023952
+    },
+    {
+      "id": "0646",
+      "name": "image_0133",
+      "source": "pipelines",
+      "split": "test",
+      "image": "dataset\\processed\\kt3\\images\\0646.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0646.png",
+      "positive_fraction": 0.036007
+    },
+    {
+      "id": "0647",
+      "name": "image_0134",
+      "source": "pipelines",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0647.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0647.png",
+      "positive_fraction": 0.024914
+    },
+    {
+      "id": "0648",
+      "name": "image_0135",
+      "source": "pipelines",
+      "split": "val",
+      "image": "dataset\\processed\\kt3\\images\\0648.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0648.png",
+      "positive_fraction": 0.023815
+    },
+    {
+      "id": "0649",
+      "name": "image_0136",
+      "source": "pipelines",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0649.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0649.png",
+      "positive_fraction": 0.026199
+    },
+    {
+      "id": "0650",
+      "name": "image_0137",
+      "source": "pipelines",
+      "split": "val",
+      "image": "dataset\\processed\\kt3\\images\\0650.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0650.png",
+      "positive_fraction": 0.038578
+    },
+    {
+      "id": "0651",
+      "name": "image_0138",
+      "source": "pipelines",
+      "split": "test",
+      "image": "dataset\\processed\\kt3\\images\\0651.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0651.png",
+      "positive_fraction": 0.019199
+    },
+    {
+      "id": "0652",
+      "name": "image_0139",
+      "source": "pipelines",
+      "split": "test",
+      "image": "dataset\\processed\\kt3\\images\\0652.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0652.png",
+      "positive_fraction": 0.018009
+    },
+    {
+      "id": "0653",
+      "name": "image_0140",
+      "source": "pipelines",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0653.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0653.png",
+      "positive_fraction": 0.040855
+    },
+    {
+      "id": "0654",
+      "name": "image_0141",
+      "source": "pipelines",
+      "split": "train",
+      "image": "dataset\\processed\\kt3\\images\\0654.png",
+      "mask": "dataset\\processed\\kt3\\masks\\0654.png",
+      "positive_fraction": 0.032543
+    }
+  ]
+}

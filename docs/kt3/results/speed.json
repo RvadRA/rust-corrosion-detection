@@ -1,0 +1,26 @@
+{
+  "size": 256,
+  "n": 79,
+  "methods": {
+    "M1 HSV-порог": {
+      "seconds": 0.392,
+      "fps": 201.53,
+      "rss_mb": 311.3
+    },
+    "M2 Lab-порог": {
+      "seconds": 0.751,
+      "fps": 105.23,
+      "rss_mb": 314.2
+    },
+    "M3 RandomForest": {
+      "seconds": 7.432,
+      "fps": 10.63,
+      "rss_mb": 505.9
+    },
+    "M4 U-Net": {
+      "seconds": 4.478,
+      "fps": 17.64,
+      "rss_mb": 690.8
+    }
+  }
+}

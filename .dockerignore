@@ -1,0 +1,17 @@
+.git
+dataset
+docs
+tmp
+__pycache__
+*.py[cod]
+**/node_modules
+node_modules
+*.pt
+*.pth
+.env
+.env.local
+**/dist
+dist
+build
+.idea
+.vscode

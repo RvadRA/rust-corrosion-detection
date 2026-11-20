@@ -1,0 +1,224 @@
+{
+  "source": "src/ml/kt3/audit_metrics.py",
+  "note": "F1/Precision/Recall — micro (по пикселям); Dice/IoU — macro (среднее по изображениям). benchmark.py качество не считает, только FPS/RSS.",
+  "methods": {
+    "M1 HSV-порог": {
+      "n": 79,
+      "tp": 626977,
+      "fp": 712539,
+      "fn": 311358,
+      "precision_micro": 0.4681,
+      "recall_micro": 0.6682,
+      "f1_micro": 0.5505,
+      "dice_micro": 0.5505,
+      "iou_micro": 0.3798,
+      "dice_macro": 0.5334,
+      "iou_macro": 0.4052,
+      "area_rel_error_macro": 1.7158,
+      "reported": {
+        "precision": 0.4681,
+        "recall": 0.6682,
+        "f1": 0.5505,
+        "mean_dice": 0.5334,
+        "mean_iou": 0.4052,
+        "mean_area_rel_error": 1.7158
+      },
+      "checks": {
+        "precision": {
+          "reported": 0.4681,
+          "recomputed": 0.4681,
+          "delta": 0.0
+        },
+        "recall": {
+          "reported": 0.6682,
+          "recomputed": 0.6682,
+          "delta": 0.0
+        },
+        "f1": {
+          "reported": 0.5505,
+          "recomputed": 0.5505,
+          "delta": 0.0
+        },
+        "mean_dice": {
+          "reported": 0.5334,
+          "recomputed": 0.5334,
+          "delta": 0.0
+        },
+        "mean_iou": {
+          "reported": 0.4052,
+          "recomputed": 0.4052,
+          "delta": 0.0
+        },
+        "mean_area_rel_error": {
+          "reported": 1.7158,
+          "recomputed": 1.7158,
+          "delta": 0.0
+        }
+      }
+    },
+    "M2 Lab-порог": {
+      "n": 79,
+      "tp": 575682,
+      "fp": 526092,
+      "fn": 362653,
+      "precision_micro": 0.5225,
+      "recall_micro": 0.6135,
+      "f1_micro": 0.5644,
+      "dice_micro": 0.5644,
+      "iou_micro": 0.3931,
+      "dice_macro": 0.5338,
+      "iou_macro": 0.4056,
+      "area_rel_error_macro": 1.2457,
+      "reported": {
+        "precision": 0.5225,
+        "recall": 0.6135,
+        "f1": 0.5644,
+        "mean_dice": 0.5338,
+        "mean_iou": 0.4056,
+        "mean_area_rel_error": 1.2457
+      },
+      "checks": {
+        "precision": {
+          "reported": 0.5225,
+          "recomputed": 0.5225,
+          "delta": 0.0
+        },
+        "recall": {
+          "reported": 0.6135,
+          "recomputed": 0.6135,
+          "delta": 0.0
+        },
+        "f1": {
+          "reported": 0.5644,
+          "recomputed": 0.5644,
+          "delta": 0.0
+        },
+        "mean_dice": {
+          "reported": 0.5338,
+          "recomputed": 0.5338,
+          "delta": 0.0
+        },
+        "mean_iou": {
+          "reported": 0.4056,
+          "recomputed": 0.4056,
+          "delta": 0.0
+        },
+        "mean_area_rel_error": {
+          "reported": 1.2457,
+          "recomputed": 1.2457,
+          "delta": 0.0
+        }
+      }
+    },
+    "M3 RandomForest": {
+      "n": 79,
+      "tp": 621027,
+      "fp": 433128,
+      "fn": 317308,
+      "precision_micro": 0.5891,
+      "recall_micro": 0.6618,
+      "f1_micro": 0.6234,
+      "dice_micro": 0.6234,
+      "iou_micro": 0.4528,
+      "dice_macro": 0.5821,
+      "iou_macro": 0.4498,
+      "area_rel_error_macro": 1.2042,
+      "reported": {
+        "precision": 0.5891,
+        "recall": 0.6618,
+        "f1": 0.6234,
+        "mean_dice": 0.5821,
+        "mean_iou": 0.4498,
+        "mean_area_rel_error": 1.2042
+      },
+      "checks": {
+        "precision": {
+          "reported": 0.5891,
+          "recomputed": 0.5891,
+          "delta": 0.0
+        },
+        "recall": {
+          "reported": 0.6618,
+          "recomputed": 0.6618,
+          "delta": 0.0
+        },
+        "f1": {
+          "reported": 0.6234,
+          "recomputed": 0.6234,
+          "delta": 0.0
+        },
+        "mean_dice": {
+          "reported": 0.5821,
+          "recomputed": 0.5821,
+          "delta": 0.0
+        },
+        "mean_iou": {
+          "reported": 0.4498,
+          "recomputed": 0.4498,
+          "delta": 0.0
+        },
+        "mean_area_rel_error": {
+          "reported": 1.2042,
+          "recomputed": 1.2042,
+          "delta": 0.0
+        }
+      }
+    },
+    "M4 U-Net": {
+      "n": 79,
+      "tp": 620121,
+      "fp": 415035,
+      "fn": 318214,
+      "precision_micro": 0.5991,
+      "recall_micro": 0.6609,
+      "f1_micro": 0.6285,
+      "dice_micro": 0.6285,
+      "iou_micro": 0.4582,
+      "dice_macro": 0.5849,
+      "iou_macro": 0.4515,
+      "area_rel_error_macro": 1.2219,
+      "reported": {
+        "precision": 0.5991,
+        "recall": 0.6609,
+        "f1": 0.6285,
+        "mean_dice": 0.5849,
+        "mean_iou": 0.4515,
+        "mean_area_rel_error": 1.2219
+      },
+      "checks": {
+        "precision": {
+          "reported": 0.5991,
+          "recomputed": 0.5991,
+          "delta": 0.0
+        },
+        "recall": {
+          "reported": 0.6609,
+          "recomputed": 0.6609,
+          "delta": 0.0
+        },
+        "f1": {
+          "reported": 0.6285,
+          "recomputed": 0.6285,
+          "delta": 0.0
+        },
+        "mean_dice": {
+          "reported": 0.5849,
+          "recomputed": 0.5849,
+          "delta": 0.0
+        },
+        "mean_iou": {
+          "reported": 0.4515,
+          "recomputed": 0.4515,
+          "delta": 0.0
+        },
+        "mean_area_rel_error": {
+          "reported": 1.2219,
+          "recomputed": 1.2219,
+          "delta": 0.0
+        }
+      }
+    }
+  },
+  "status": "ok",
+  "mismatches": []
+}
