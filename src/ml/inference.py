@@ -10,6 +10,8 @@ from scipy import ndimage
 import torch
 from torch import nn
 
+from src.ml.calibration import area_mm2_from_pixels, resize_mask_to_original
+
 SIZE = 256
 DEFAULT_THRESHOLD = 0.5
 MIN_COMPONENT_SIZE = 24
@@ -141,10 +143,7 @@ class RustDetector:
             confidence = 0.0
 
         # Маска в исходном размере изображения через nearest resize
-        mask_orig_img = Image.fromarray((pred.astype(np.uint8) * 255)).resize(
-            (orig_w, orig_h), Image.NEAREST
-        )
-        mask_orig = np.asarray(mask_orig_img) > 0
+        mask_orig = resize_mask_to_original(pred, (orig_w, orig_h))
 
         return mask_orig, probs, confidence
 
@@ -177,23 +176,16 @@ def inspect_image(
 
     area_px = int(np.sum(mask_orig))
 
-    # Калибровка MM_PER_PX
+    # Калибровка MM_PER_PX: масштаб исходного изображения, а не входа 256×256
     if mm_per_px is None:
         env_val = os.getenv("MM_PER_PX")
         if env_val:
             try:
-                val = float(env_val)
-                if val > 0:
-                    mm_per_px = val
+                mm_per_px = float(env_val)
             except ValueError:
-                pass
+                mm_per_px = None
 
-    if mm_per_px is not None and mm_per_px > 0:
-        calibrated = True
-        area_mm2 = round(area_px * (float(mm_per_px) ** 2), 2)
-    else:
-        calibrated = False
-        area_mm2 = None
+    area_mm2, calibrated = area_mm2_from_pixels(area_px, mm_per_px)
 
     # Построение overlay: исходное изображение + красная полупрозрачная маска
     overlay_np = orig_np.copy()

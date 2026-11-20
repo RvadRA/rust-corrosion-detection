@@ -5,6 +5,7 @@ from contextlib import asynccontextmanager
 import csv
 from datetime import datetime, timedelta, timezone
 import io
+import math
 import os
 from pathlib import Path
 import re
@@ -132,20 +133,44 @@ def sanitize_filename(filename: str) -> str:
 
 
 def compute_verdict_and_message(area_px: int, area_mm2: float | None, calibrated: bool):
+    if area_px < 0:
+        return "ОШИБКА СИСТЕМЫ", "Некорректная площадь маски: отрицательное значение."
+
     if area_px == 0:
-        return "НОРМА", "Коррозия не обнаружена."
+        if calibrated:
+            return "НОРМА", "Коррозия не обнаружена."
+        return (
+            "НОРМА",
+            "Коррозия не обнаружена. MM_PER_PX не задан; для нулевой площади вердикт не зависит "
+            "от калибровки, но приёмочность проверки не подтверждена.",
+        )
 
     if not calibrated:
         return (
             "ВНИМАНИЕ",
-            "Внимание: масштаб не откалиброван (MM_PER_PX не задан). Площадь в мм² не рассчитана. Вердикт не является приёмочным, требуется калибровка.",
+            "Внимание: масштаб не откалиброван (MM_PER_PX не задан). Площадь в мм² не рассчитана. "
+            "Классификатор степени «лёгкая/глубокая» не реализован. Вердикт не является приёмочным, "
+            "требуется калибровка.",
         )
 
-    assert area_mm2 is not None
+    if area_mm2 is None or not math.isfinite(area_mm2) or area_mm2 < 0:
+        return (
+            "ОШИБКА СИСТЕМЫ",
+            "Калибровка заявлена, но площадь в мм² не рассчитана или содержит некорректное значение.",
+        )
+
     if area_mm2 <= 20.0:
-        return "ВНИМАНИЕ", f"Обнаружена ржавчина площадью {area_mm2:.2f} мм² (допустимый предел ≤ 20 мм²)."
+        return (
+            "ВНИМАНИЕ",
+            f"Обнаружена ржавчина площадью {area_mm2:.2f} мм² (допустимый предел ≤ 20 мм²). "
+            "Степень коррозии не классифицируется.",
+        )
     else:
-        return "БРАК", f"Площадь поражения {area_mm2:.2f} мм² превышает допустимый предел 20 мм²."
+        return (
+            "БРАК",
+            f"Площадь поражения {area_mm2:.2f} мм² превышает допустимый предел 20 мм². "
+            "Степень коррозии не классифицируется.",
+        )
 
 
 async def read_and_validate_upload(file: UploadFile, filename: str) -> bytes:

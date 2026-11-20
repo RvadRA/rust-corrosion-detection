@@ -1,0 +1,67 @@
+name: CI
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  backend:
+    name: Backend tests
+    runs-on: ubuntu-latest
+    env:
+      DATABASE_URL: sqlite:///./ci_test.db
+      DATA_DIR: ./ci_data
+      ML_SERVICE_URL: http://127.0.0.1:8001
+      RETENTION_DAYS: "30"
+      CORS_ORIGINS: http://localhost:3000
+      MM_PER_PX: ""
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+          cache-dependency-path: |
+            src/backend/requirements.txt
+            src/backend/requirements-test.txt
+
+      - name: Install backend dependencies
+        run: pip install -r src/backend/requirements.txt -r src/backend/requirements-test.txt
+
+      - name: Compile backend and calibration module
+        run: python -m compileall -q src/backend src/ml/calibration.py
+
+      - name: Import backend
+        run: python -c "import src.backend.main; print('backend import ok')"
+
+      - name: Run pytest
+        run: pytest
+
+  frontend:
+    name: Frontend build
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: src/frontend
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: npm
+          cache-dependency-path: src/frontend/package-lock.json
+
+      - name: Install frontend dependencies
+        run: npm ci
+
+      - name: Build frontend
+        run: npm run build

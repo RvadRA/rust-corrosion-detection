@@ -3,6 +3,8 @@ __pycache__/
 *.py[cod]
 .venv/
 venv/
+.pytest_cache/
+.coverage
 .ipynb_checkpoints/
 
 # Данные и веса моделей — не храним в git

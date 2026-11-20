@@ -13,12 +13,11 @@ if not DATABASE_URL:
         "Переменная окружения DATABASE_URL не задана. Задайте ее в .env файле."
     )
 
-engine = create_engine(
-    DATABASE_URL,
-    pool_pre_ping=True,
-    pool_size=10,
-    max_overflow=20,
-)
+engine_options = {"pool_pre_ping": True}
+if not DATABASE_URL.startswith("sqlite"):
+    engine_options.update(pool_size=10, max_overflow=20)
+
+engine = create_engine(DATABASE_URL, **engine_options)
 
 SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
 Base = declarative_base()
