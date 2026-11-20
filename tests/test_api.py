@@ -68,6 +68,23 @@ def test_inspect_without_calibration_returns_warning(api, fake_ml):
     assert "MM_PER_PX" in body["message"]
     assert "не является приёмочным" in body["message"]
     assert body["original_url"].endswith("_part.jpg")
+    assert "mm_per_px" not in fake_ml.last_post_data
+
+
+def test_inspect_with_zero_calibration_is_uncalibrated(api, fake_ml, monkeypatch):
+    client, _, main = api
+    monkeypatch.setattr(main, "MM_PER_PX_ENV", "0")
+    fake_ml.inspect_payload = _payload(area_px=1000, area_mm2=None, calibrated=False)
+
+    response = _inspect(client)
+
+    assert response.status_code == 200
+    body = response.json()
+    assert fake_ml.last_post_data["mm_per_px"] == "0.0"
+    assert body["area_mm2"] is None
+    assert body["calibrated"] is False
+    assert body["verdict"] == "ВНИМАНИЕ"
+    assert "требуется калибровка" in body["message"]
 
 
 def test_inspect_with_calibration_and_large_area_is_reject(api, fake_ml, monkeypatch):

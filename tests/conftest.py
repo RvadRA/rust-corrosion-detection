@@ -53,6 +53,7 @@ class FakeAsyncClient:
     health_exception = None
     inspect_payload = None
     inspect_exception = None
+    last_post_data = None
 
     def __init__(self, *args, **kwargs):
         pass
@@ -69,6 +70,7 @@ class FakeAsyncClient:
         return FakeResponse(payload=self.health_payload)
 
     async def post(self, url, **kwargs):
+        type(self).last_post_data = kwargs.get("data")
         if self.inspect_exception is not None:
             raise self.inspect_exception
         return FakeResponse(payload=self.inspect_payload)
@@ -82,6 +84,7 @@ def fake_ml(monkeypatch):
     FakeAsyncClient.health_exception = None
     FakeAsyncClient.inspect_payload = None
     FakeAsyncClient.inspect_exception = None
+    FakeAsyncClient.last_post_data = None
     monkeypatch.setattr(main.httpx, "AsyncClient", FakeAsyncClient)
     return FakeAsyncClient
 
